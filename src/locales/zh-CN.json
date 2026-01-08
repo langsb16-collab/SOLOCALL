@@ -1,0 +1,106 @@
+{
+  "lang": "zh-CN",
+  "langName": "简体中文",
+  "meta": {
+    "title": "SOLOCALL - 索罗呼 | AI语音优先生活支持平台",
+    "description": "为独居中老年人提供的电话AI生活支持平台。一个电话解决医院预约、行政手续和健康信息问题。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "服务介绍",
+    "features": "主要功能",
+    "faq": "常见问题",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "独处但不孤独",
+    "subtitle": "一个电话解决日常生活<br/>AI生活伙伴",
+    "description": "无需安装应用。仅通过电话即可代理医院预约、行政手续和<br/>健康信息的语音优先平台。",
+    "cta": "开始使用服务",
+    "callNow": "立即致电"
+  },
+  "features": {
+    "title": "SOLOCALL 服务",
+    "subtitle": "一个电话解决所有问题",
+    "items": [
+      {
+        "icon": "fa-phone-volume",
+        "title": "医院·政府机构电话代理",
+        "description": "AI代为处理医院预约和公共机构咨询。无需等待即可获得结果。"
+      },
+      {
+        "icon": "fa-heartbeat",
+        "title": "健康信息整理",
+        "description": "告诉我们您的症状，我们会为您整理。准备就诊前需要的问题。"
+      },
+      {
+        "icon": "fa-users",
+        "title": "家庭沟通桥梁",
+        "description": "仅在必要时向家人传达状态。是为了安心而非监视的连接。"
+      },
+      {
+        "icon": "fa-shield-alt",
+        "title": "诈骗电话拦截",
+        "description": "实时检测可疑的电信诈骗电话并立即警告。"
+      },
+      {
+        "icon": "fa-clipboard-list",
+        "title": "生活管家",
+        "description": "通过电话管理日常生活：天气、日程、用药提醒等。"
+      },
+      {
+        "icon": "fa-hand-holding-heart",
+        "title": "24小时安否确认",
+        "description": "在指定时间致电确认安否。请慢慢舒适地交谈。"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "使用方法",
+    "steps": [
+      {
+        "number": "1",
+        "title": "打电话",
+        "description": "拨打或接听注册号码的电话"
+      },
+      {
+        "number": "2",
+        "title": "说话",
+        "description": "慢慢舒适地告诉我们您需要什么"
+      },
+      {
+        "number": "3",
+        "title": "解决问题",
+        "description": "AI代为处理并告知结果"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "查看常见问题的答案",
+    "categories": [
+      {
+        "name": "服务基础",
+        "questions": [
+          {
+            "q": "这个服务做什么？",
+            "a": "一个电话即可代为处理或整理医院、行政、健康和生活问题。"
+          },
+          {
+            "q": "必须安装应用吗？",
+            "a": "不需要。只需要电话。"
+          },
+          {
+            "q": "这是为谁提供的服务？",
+            "a": "这是为独居中老年人提供的电话生活支持服务。"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "独处但不孤独，与SOLOCALL同在",
+    "contact": "联系: support@solocall.com",
+    "copyright": "© 2026 SOLOCALL. 保留所有权利。"
+  }
+}

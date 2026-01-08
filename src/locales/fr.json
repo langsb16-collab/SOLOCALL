@@ -1,0 +1,106 @@
+{
+  "lang": "fr",
+  "langName": "Français",
+  "meta": {
+    "title": "SOLOCALL | Plateforme de soutien à la vie par IA vocale",
+    "description": "Une plateforme de soutien à la vie par IA basée sur le téléphone pour les adultes d'âge moyen et les seniors vivant seuls. Résolvez les rendez-vous médicaux, les procédures administratives et les informations de santé en un seul appel."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "features": "Fonctionnalités",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Seul mais pas solitaire",
+    "subtitle": "Votre partenaire de vie IA<br/>à un seul appel",
+    "description": "Une plateforme vocale qui gère les rendez-vous médicaux, les procédures administratives<br/>et les informations de santé pour vous—sans installation d'application requise.",
+    "cta": "Commencer",
+    "callNow": "Appelez maintenant"
+  },
+  "features": {
+    "title": "Services SOLOCALL",
+    "subtitle": "Tout résolu avec un seul appel téléphonique",
+    "items": [
+      {
+        "icon": "fa-phone-volume",
+        "title": "Service d'appels hospitaliers et gouvernementaux",
+        "description": "L'IA gère les rendez-vous médicaux et les demandes d'agences publiques pour vous. Obtenez des résultats sans attendre."
+      },
+      {
+        "icon": "fa-heartbeat",
+        "title": "Organisation des informations de santé",
+        "description": "Parlez-nous de vos symptômes et nous les organiserons. Nous préparons les questions dont vous avez besoin avant les visites médicales."
+      },
+      {
+        "icon": "fa-users",
+        "title": "Pont de communication familiale",
+        "description": "Partagez votre statut avec la famille uniquement si nécessaire. Connexion pour la tranquillité d'esprit, pas la surveillance."
+      },
+      {
+        "icon": "fa-shield-alt",
+        "title": "Protection contre les appels frauduleux",
+        "description": "Détection en temps réel des appels de phishing suspects avec alertes immédiates."
+      },
+      {
+        "icon": "fa-clipboard-list",
+        "title": "Gestionnaire de vie",
+        "description": "Gérez la vie quotidienne par téléphone : météo, agenda, rappels de médicaments et plus."
+      },
+      {
+        "icon": "fa-hand-holding-heart",
+        "title": "Vérification du bien-être 24/7",
+        "description": "Nous appelons aux heures programmées pour vérifier votre bien-être. Parlez lentement et confortablement."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Passer un appel",
+        "description": "Appelez ou recevez un appel du numéro enregistré"
+      },
+      {
+        "number": "2",
+        "title": "Parlez simplement",
+        "description": "Dites-nous ce dont vous avez besoin, lentement et confortablement"
+      },
+      {
+        "number": "3",
+        "title": "Nous nous en occupons",
+        "description": "L'IA le traite pour vous et fournit les résultats"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "subtitle": "Trouvez des réponses aux questions courantes",
+    "categories": [
+      {
+        "name": "Bases du service",
+        "questions": [
+          {
+            "q": "Que fait ce service ?",
+            "a": "Avec un seul appel téléphonique, nous gérons ou organisons les problèmes d'hôpital, administratifs, de santé et de vie quotidienne pour vous."
+          },
+          {
+            "q": "Dois-je installer une application ?",
+            "a": "Non. Tout ce dont vous avez besoin est un téléphone."
+          },
+          {
+            "q": "À qui s'adresse ce service ?",
+            "a": "Il s'agit d'un service de soutien à la vie basé sur le téléphone pour les personnes d'âge moyen et les seniors vivant seuls."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Seul mais pas solitaire, avec SOLOCALL",
+    "contact": "Contact : support@solocall.com",
+    "copyright": "© 2026 SOLOCALL. Tous droits réservés."
+  }
+}

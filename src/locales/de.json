@@ -1,0 +1,106 @@
+{
+  "lang": "de",
+  "langName": "Deutsch",
+  "meta": {
+    "title": "SOLOCALL | KI-Sprachbasierte Lebensunterstützungsplattform",
+    "description": "Eine telefonbasierte KI-Lebensunterstützungsplattform für alleinstehende Erwachsene und Senioren. Lösen Sie Krankenhaustermine, Verwaltungsverfahren und Gesundheitsinformationen mit nur einem Anruf."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "features": "Funktionen",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Allein, aber nicht einsam",
+    "subtitle": "Ihr KI-Lebenspartner<br/>nur einen Anruf entfernt",
+    "description": "Eine sprachbasierte Plattform, die Krankenhaustermine,<br/>Verwaltungsverfahren und Gesundheitsinformationen für Sie erledigt—keine App-Installation erforderlich.",
+    "cta": "Jetzt beginnen",
+    "callNow": "Jetzt anrufen"
+  },
+  "features": {
+    "title": "SOLOCALL Services",
+    "subtitle": "Alles mit nur einem Anruf gelöst",
+    "items": [
+      {
+        "icon": "fa-phone-volume",
+        "title": "Krankenhaus & Behördenanrufservice",
+        "description": "KI übernimmt Krankenhaustermine und Behördenanfragen für Sie. Erhalten Sie Ergebnisse ohne Wartezeit."
+      },
+      {
+        "icon": "fa-heartbeat",
+        "title": "Gesundheitsinformationsorganisation",
+        "description": "Teilen Sie uns Ihre Symptome mit und wir organisieren sie. Wir bereiten Fragen vor, die Sie vor Arztbesuchen benötigen."
+      },
+      {
+        "icon": "fa-users",
+        "title": "Familienkommunikationsbrücke",
+        "description": "Teilen Sie Ihren Status mit der Familie nur bei Bedarf. Verbindung für Seelenfrieden, nicht Überwachung."
+      },
+      {
+        "icon": "fa-shield-alt",
+        "title": "Betrugsanrufschutz",
+        "description": "Echtzeiterkennung verdächtiger Phishing-Anrufe mit sofortigen Warnungen."
+      },
+      {
+        "icon": "fa-clipboard-list",
+        "title": "Lebensmanager",
+        "description": "Verwalten Sie das tägliche Leben per Telefon: Wetter, Termine, Medikamentenerinnerungen und mehr."
+      },
+      {
+        "icon": "fa-hand-holding-heart",
+        "title": "24/7 Wellness-Check",
+        "description": "Wir rufen zu geplanten Zeiten an, um nach Ihnen zu sehen. Sprechen Sie langsam und bequem."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "So funktioniert es",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Anrufen",
+        "description": "Rufen Sie die registrierte Nummer an oder empfangen Sie einen Anruf"
+      },
+      {
+        "number": "2",
+        "title": "Einfach sprechen",
+        "description": "Sagen Sie uns, was Sie brauchen, langsam und bequem"
+      },
+      {
+        "number": "3",
+        "title": "Wir kümmern uns darum",
+        "description": "KI verarbeitet es für Sie und liefert Ergebnisse"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf häufige Fragen",
+    "categories": [
+      {
+        "name": "Service-Grundlagen",
+        "questions": [
+          {
+            "q": "Was macht dieser Service?",
+            "a": "Mit einem Anruf erledigen oder organisieren wir Krankenhaus-, Verwaltungs-, Gesundheits- und Alltagsprobleme für Sie."
+          },
+          {
+            "q": "Muss ich eine App installieren?",
+            "a": "Nein. Alles, was Sie brauchen, ist ein Telefon."
+          },
+          {
+            "q": "Für wen ist dieser Service?",
+            "a": "Dies ist ein telefonbasierter Lebensunterstützungsservice für alleinstehende Erwachsene und Senioren."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Allein, aber nicht einsam, zusammen mit SOLOCALL",
+    "contact": "Kontakt: support@solocall.com",
+    "copyright": "© 2026 SOLOCALL. Alle Rechte vorbehalten."
+  }
+}

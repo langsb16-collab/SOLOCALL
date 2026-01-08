@@ -1,0 +1,259 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "meta": {
+    "title": "SOLOCALL | AI Voice-First Life Support Platform",
+    "description": "A phone-based AI life support platform for middle-aged and senior singles. Solve hospital appointments, administrative procedures, and health information with just one call."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Alone but Not Lonely",
+    "subtitle": "Your AI Life Partner<br/>Just One Call Away",
+    "description": "A voice-first platform that handles hospital appointments, administrative procedures,<br/>and health information for you—no app installation required.",
+    "cta": "Get Started",
+    "callNow": "Call Now"
+  },
+  "features": {
+    "title": "SOLOCALL Services",
+    "subtitle": "Everything solved with just one phone call",
+    "items": [
+      {
+        "icon": "fa-phone-volume",
+        "title": "Hospital & Government Call Service",
+        "description": "AI handles hospital appointments and public agency inquiries for you. Get results without waiting."
+      },
+      {
+        "icon": "fa-heartbeat",
+        "title": "Health Information Organization",
+        "description": "Tell us your symptoms and we'll organize them. We prepare questions you need before hospital visits."
+      },
+      {
+        "icon": "fa-users",
+        "title": "Family Communication Bridge",
+        "description": "Share your status with family only when necessary. Connection for peace of mind, not surveillance."
+      },
+      {
+        "icon": "fa-shield-alt",
+        "title": "Scam Call Protection",
+        "description": "Real-time detection of suspicious voice phishing calls with immediate alerts."
+      },
+      {
+        "icon": "fa-clipboard-list",
+        "title": "Life Manager",
+        "description": "Manage daily life by phone: weather, schedule, medication reminders, and more."
+      },
+      {
+        "icon": "fa-hand-holding-heart",
+        "title": "24/7 Wellness Check",
+        "description": "We call at scheduled times to check on you. Speak slowly and comfortably."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Make a Call",
+        "description": "Call or receive a call from the registered number"
+      },
+      {
+        "number": "2",
+        "title": "Just Speak",
+        "description": "Tell us what you need, slowly and comfortably"
+      },
+      {
+        "number": "3",
+        "title": "We Handle It",
+        "description": "AI processes it for you and provides results"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions",
+    "categories": [
+      {
+        "name": "Service Basics",
+        "questions": [
+          {
+            "q": "What does this service do?",
+            "a": "With one phone call, we handle or organize hospital, administrative, health, and daily living issues for you."
+          },
+          {
+            "q": "Do I need to install an app?",
+            "a": "No. All you need is a phone."
+          },
+          {
+            "q": "Who is this service for?",
+            "a": "This is a phone-based life support service for middle-aged and senior individuals living alone."
+          },
+          {
+            "q": "Is it complicated to use?",
+            "a": "Not at all. Just speak what you need."
+          },
+          {
+            "q": "Am I talking to a human agent?",
+            "a": "An AI assists you by phone instead of a person."
+          },
+          {
+            "q": "Can I speak slowly?",
+            "a": "Yes. Speak slowly and comfortably."
+          },
+          {
+            "q": "Does it remember past conversations?",
+            "a": "Yes. We refer to previous conversations to help you better."
+          }
+        ]
+      },
+      {
+        "name": "Hospital & Government Calls",
+        "questions": [
+          {
+            "q": "Do you make hospital appointments for me?",
+            "a": "Yes. We call hospitals directly to make appointments or inquiries."
+          },
+          {
+            "q": "Can you call city hall or community centers?",
+            "a": "Yes. We check procedures, documents, and departments."
+          },
+          {
+            "q": "Do you wait on hold for me?",
+            "a": "Yes. No waiting or ARS—just results."
+          },
+          {
+            "q": "How do I get the results?",
+            "a": "We call you back with explanations or summaries."
+          },
+          {
+            "q": "Can I request multiple follow-ups?",
+            "a": "Yes. We'll call again if you need confirmation."
+          },
+          {
+            "q": "What types of calls can you make?",
+            "a": "Hospitals, public agencies, and general service inquiries."
+          },
+          {
+            "q": "What if the call doesn't go through?",
+            "a": "We'll try again or guide you to another solution."
+          }
+        ]
+      },
+      {
+        "name": "Health Information",
+        "questions": [
+          {
+            "q": "Can I tell you about symptoms?",
+            "a": "Yes. We organize the information for you."
+          },
+          {
+            "q": "Do you tell me if I should see a doctor?",
+            "a": "We don't diagnose, but we provide guidance on whether a visit is recommended."
+          },
+          {
+            "q": "Do you replace doctor consultations?",
+            "a": "No. We do not perform medical acts."
+          },
+          {
+            "q": "Do you prepare questions for doctor visits?",
+            "a": "Yes. We organize necessary questions for you."
+          },
+          {
+            "q": "Can I get help when anxious?",
+            "a": "Yes. We organize the situation and provide guidance."
+          },
+          {
+            "q": "Are health records kept?",
+            "a": "Only to the extent necessary for service."
+          }
+        ]
+      },
+      {
+        "name": "Family Communication",
+        "questions": [
+          {
+            "q": "Is my status shared with family?",
+            "a": "Only when necessary, and briefly."
+          },
+          {
+            "q": "Is family always notified?",
+            "a": "No. Only in unusual situations."
+          },
+          {
+            "q": "Will I feel monitored?",
+            "a": "No. Autonomy is our top priority."
+          },
+          {
+            "q": "What information is shared?",
+            "a": "Only minimal information like condition summaries."
+          },
+          {
+            "q": "Can I turn off sharing?",
+            "a": "Yes. You can adjust settings anytime."
+          }
+        ]
+      },
+      {
+        "name": "Scam Detection",
+        "questions": [
+          {
+            "q": "Do you block voice phishing?",
+            "a": "Yes. We detect suspicious calls in real-time."
+          },
+          {
+            "q": "How do you notify me if it's dangerous?",
+            "a": "Immediately by voice during the call."
+          },
+          {
+            "q": "Do you explain why it's risky?",
+            "a": "Yes. We provide clear and simple reasons."
+          },
+          {
+            "q": "Do I have to hang up myself?",
+            "a": "Yes. The decision to hang up is yours."
+          },
+          {
+            "q": "Is family notified?",
+            "a": "If necessary, we can alert guardians."
+          }
+        ]
+      },
+      {
+        "name": "Life Manager & Others",
+        "questions": [
+          {
+            "q": "Do you provide weather and schedules?",
+            "a": "Yes. Right away by phone."
+          },
+          {
+            "q": "Do you remind me to take medication?",
+            "a": "Yes. We assist with daily living reminders."
+          },
+          {
+            "q": "What happens in urgent situations?",
+            "a": "We guide you to immediate help."
+          },
+          {
+            "q": "How do I use the service again?",
+            "a": "Just call anytime."
+          },
+          {
+            "q": "What's the biggest benefit of this service?",
+            "a": "You don't have to solve everything alone."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Alone but not lonely, together with SOLOCALL",
+    "contact": "Contact: support@solocall.com",
+    "copyright": "© 2026 SOLOCALL. All rights reserved."
+  }
+}

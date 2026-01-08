@@ -1,0 +1,106 @@
+{
+  "lang": "pt",
+  "langName": "Português",
+  "meta": {
+    "title": "SOLOCALL | Plataforma de Suporte à Vida por IA de Voz",
+    "description": "Uma plataforma de suporte à vida por IA baseada em telefone para adultos de meia-idade e idosos que vivem sozinhos. Resolva consultas médicas, procedimentos administrativos e informações de saúde com apenas uma ligação."
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "features": "Recursos",
+    "faq": "Perguntas frequentes",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Sozinho mas não solitário",
+    "subtitle": "Seu parceiro de vida com IA<br/>a apenas uma ligação",
+    "description": "Uma plataforma de voz que gerencia consultas médicas, procedimentos administrativos<br/>e informações de saúde para você—sem necessidade de instalar aplicativo.",
+    "cta": "Começar",
+    "callNow": "Ligue agora"
+  },
+  "features": {
+    "title": "Serviços SOLOCALL",
+    "subtitle": "Tudo resolvido com apenas uma ligação",
+    "items": [
+      {
+        "icon": "fa-phone-volume",
+        "title": "Serviço de ligações hospitalares e governamentais",
+        "description": "A IA gerencia consultas médicas e consultas de agências públicas para você. Obtenha resultados sem esperar."
+      },
+      {
+        "icon": "fa-heartbeat",
+        "title": "Organização de informações de saúde",
+        "description": "Conte-nos seus sintomas e nós os organizaremos. Preparamos perguntas que você precisa antes de visitas médicas."
+      },
+      {
+        "icon": "fa-users",
+        "title": "Ponte de comunicação familiar",
+        "description": "Compartilhe seu status com a família apenas quando necessário. Conexão para tranquilidade, não vigilância."
+      },
+      {
+        "icon": "fa-shield-alt",
+        "title": "Proteção contra chamadas fraudulentas",
+        "description": "Detecção em tempo real de chamadas suspeitas de phishing com alertas imediatos."
+      },
+      {
+        "icon": "fa-clipboard-list",
+        "title": "Gerenciador de vida",
+        "description": "Gerencie a vida diária por telefone: clima, agenda, lembretes de medicamentos e mais."
+      },
+      {
+        "icon": "fa-hand-holding-heart",
+        "title": "Verificação de bem-estar 24/7",
+        "description": "Ligamos em horários programados para verificar seu bem-estar. Fale devagar e confortavelmente."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Como funciona",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Fazer uma ligação",
+        "description": "Ligue ou receba uma ligação do número registrado"
+      },
+      {
+        "number": "2",
+        "title": "Apenas fale",
+        "description": "Diga-nos o que você precisa, devagar e confortavelmente"
+      },
+      {
+        "number": "3",
+        "title": "Nós cuidamos",
+        "description": "A IA processa para você e fornece resultados"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Encontre respostas para perguntas comuns",
+    "categories": [
+      {
+        "name": "Conceitos básicos do serviço",
+        "questions": [
+          {
+            "q": "O que este serviço faz?",
+            "a": "Com uma ligação telefônica, gerenciamos ou organizamos problemas de hospital, administrativos, de saúde e de vida diária para você."
+          },
+          {
+            "q": "Preciso instalar um aplicativo?",
+            "a": "Não. Tudo que você precisa é um telefone."
+          },
+          {
+            "q": "Para quem é este serviço?",
+            "a": "Este é um serviço de suporte à vida baseado em telefone para pessoas de meia-idade e idosos que vivem sozinhos."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Sozinho mas não solitário, junto com SOLOCALL",
+    "contact": "Contato: support@solocall.com",
+    "copyright": "© 2026 SOLOCALL. Todos os direitos reservados."
+  }
+}

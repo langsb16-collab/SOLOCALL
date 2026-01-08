@@ -1,0 +1,106 @@
+{
+  "lang": "en-GB",
+  "langName": "English (UK)",
+  "meta": {
+    "title": "SOLOCALL | AI Voice-First Life Support Platform",
+    "description": "A phone-based AI life support platform for middle-aged and senior singles. Solve hospital appointments, administrative procedures, and health information with just one call."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Alone but Not Lonely",
+    "subtitle": "Your AI Life Partner<br/>Just One Call Away",
+    "description": "A voice-first platform that handles hospital appointments, administrative procedures,<br/>and health information for you—no app installation required.",
+    "cta": "Get Started",
+    "callNow": "Ring Now"
+  },
+  "features": {
+    "title": "SOLOCALL Services",
+    "subtitle": "Everything sorted with just one phone call",
+    "items": [
+      {
+        "icon": "fa-phone-volume",
+        "title": "Hospital & Government Call Service",
+        "description": "AI handles hospital appointments and public agency enquiries for you. Get results without waiting."
+      },
+      {
+        "icon": "fa-heartbeat",
+        "title": "Health Information Organisation",
+        "description": "Tell us your symptoms and we'll organise them. We prepare questions you need before hospital visits."
+      },
+      {
+        "icon": "fa-users",
+        "title": "Family Communication Bridge",
+        "description": "Share your status with family only when necessary. Connection for peace of mind, not surveillance."
+      },
+      {
+        "icon": "fa-shield-alt",
+        "title": "Scam Call Protection",
+        "description": "Real-time detection of suspicious voice phishing calls with immediate alerts."
+      },
+      {
+        "icon": "fa-clipboard-list",
+        "title": "Life Manager",
+        "description": "Manage daily life by phone: weather, schedule, medication reminders, and more."
+      },
+      {
+        "icon": "fa-hand-holding-heart",
+        "title": "24/7 Wellness Check",
+        "description": "We ring at scheduled times to check on you. Speak slowly and comfortably."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Make a Call",
+        "description": "Ring or receive a call from the registered number"
+      },
+      {
+        "number": "2",
+        "title": "Just Speak",
+        "description": "Tell us what you need, slowly and comfortably"
+      },
+      {
+        "number": "3",
+        "title": "We Handle It",
+        "description": "AI processes it for you and provides results"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions",
+    "categories": [
+      {
+        "name": "Service Basics",
+        "questions": [
+          {
+            "q": "What does this service do?",
+            "a": "With one phone call, we handle or organise hospital, administrative, health, and daily living issues for you."
+          },
+          {
+            "q": "Do I need to install an app?",
+            "a": "No. All you need is a telephone."
+          },
+          {
+            "q": "Who is this service for?",
+            "a": "This is a phone-based life support service for middle-aged and senior individuals living alone."
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Alone but not lonely, together with SOLOCALL",
+    "contact": "Contact: support@solocall.com",
+    "copyright": "© 2026 SOLOCALL. All rights reserved."
+  }
+}
