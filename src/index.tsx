@@ -120,40 +120,119 @@ app.get('/', (c) => {
             max-height: 500px;
           }
           
-          /* 모바일에서 features-title 30% 축소 */
+          /* 모바일 전용 최적화 */
           @media (max-width: 768px) {
-            #features-title {
-              font-size: 1.4rem !important;
-              line-height: 1.2;
-            }
-            
-            /* 모바일에서 곤색 헤더(Hero) 여백 축소 */
+            /* 1. 곤색 헤더(Hero) 공간 대폭 축소 */
             #home {
-              padding-top: 5rem !important;
-              padding-bottom: 3rem !important;
-            }
-            
-            /* 모바일에서 섹션 여백 축소 */
-            #features, #how-it-works, #faq {
-              padding-top: 2.5rem !important;
-              padding-bottom: 2.5rem !important;
-            }
-            
-            /* 모바일에서 제목 하단 여백 축소 */
-            #home .max-w-6xl {
-              margin-bottom: 0 !important;
+              padding-top: 4rem !important;
+              padding-bottom: 2rem !important;
             }
             
             #hero-title {
-              margin-bottom: 1rem !important;
+              font-size: 1.75rem !important;
+              margin-bottom: 0.5rem !important;
+              line-height: 1.3 !important;
             }
             
             #hero-subtitle {
-              margin-bottom: 0.75rem !important;
+              font-size: 1rem !important;
+              margin-bottom: 0.5rem !important;
+              line-height: 1.4 !important;
             }
             
             #hero-description {
-              margin-bottom: 1.5rem !important;
+              font-size: 0.875rem !important;
+              margin-bottom: 1rem !important;
+              line-height: 1.5 !important;
+            }
+            
+            /* 버튼 크기 축소 */
+            #cta-button, #call-button {
+              padding: 12px 20px !important;
+              font-size: 14px !important;
+            }
+            
+            /* 2. 흰색 여백 대폭 축소 */
+            #features, #how-it-works, #faq {
+              padding-top: 1.5rem !important;
+              padding-bottom: 1.5rem !important;
+              padding-left: 1rem !important;
+              padding-right: 1rem !important;
+            }
+            
+            /* 3. 섹션 박스 크기 40% 축소 */
+            .feature-card {
+              padding: 1rem !important;
+              margin-bottom: 0.75rem !important;
+            }
+            
+            .feature-card i {
+              font-size: 1.5rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+            
+            .feature-card h3 {
+              font-size: 1rem !important;
+              margin-bottom: 0.5rem !important;
+            }
+            
+            .feature-card p {
+              font-size: 0.8rem !important;
+              line-height: 1.4 !important;
+            }
+            
+            /* 섹션 제목 축소 */
+            #features-title, #how-it-works-title, #faq-title {
+              font-size: 1.25rem !important;
+              margin-bottom: 0.75rem !important;
+            }
+            
+            #features-subtitle, #faq-subtitle {
+              font-size: 0.875rem !important;
+              margin-bottom: 1rem !important;
+            }
+            
+            /* How it works 스텝 축소 */
+            .step-card {
+              padding: 1rem !important;
+            }
+            
+            .step-card .step-number {
+              font-size: 1.5rem !important;
+              width: 40px !important;
+              height: 40px !important;
+            }
+            
+            .step-card h3 {
+              font-size: 1rem !important;
+              margin-bottom: 0.25rem !important;
+            }
+            
+            .step-card p {
+              font-size: 0.8rem !important;
+            }
+            
+            /* FAQ 아코디언 축소 */
+            .faq-category {
+              margin-bottom: 0.75rem !important;
+            }
+            
+            .faq-category h3 {
+              font-size: 1rem !important;
+              padding: 0.75rem !important;
+            }
+            
+            .faq-item {
+              padding: 0.75rem !important;
+            }
+            
+            .faq-question {
+              font-size: 0.875rem !important;
+            }
+            
+            .faq-answer {
+              font-size: 0.8rem !important;
+              padding-top: 0.5rem !important;
             }
           }
           
