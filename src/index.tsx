@@ -424,6 +424,159 @@ app.get('/', (c) => {
             </div>
         </div>
 
+        <!-- 서비스 시작하기 모달 -->
+        <div id="onboarding-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:9999; overflow-y:auto;">
+            <div style="max-width:600px; margin:50px auto; background:white; border-radius:16px; padding:32px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+                    <h2 style="font-size:24px; font-weight:bold; color:#2F3A4A;">서비스 시작하기</h2>
+                    <button onclick="document.getElementById('onboarding-modal').style.display='none'" style="font-size:24px; color:#8B9098; border:none; background:none; cursor:pointer;">&times;</button>
+                </div>
+                
+                <p style="color:#8B9098; margin-bottom:24px; font-size:14px;">필요한 정보만 먼저 알려주세요. 이 정보는 위급하거나 도움이 필요할 때만 사용됩니다.</p>
+                
+                <form id="onboarding-form" style="display:flex; flex-direction:column; gap:20px;">
+                    <!-- Step 1: 기본 정보 -->
+                    <div style="padding:20px; background:#F4F6F8; border-radius:8px;">
+                        <h3 style="font-weight:600; margin-bottom:16px; color:#2F3A4A;">1. 기본 정보</h3>
+                        <div style="display:grid; gap:12px;">
+                            <div>
+                                <label style="display:block; margin-bottom:6px; font-size:14px; color:#2F3A4A;">나이대</label>
+                                <select name="age" required style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+                                    <option value="">선택하세요</option>
+                                    <option value="40대">40대</option>
+                                    <option value="50대">50대</option>
+                                    <option value="60대 이상">60대 이상</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label style="display:block; margin-bottom:6px; font-size:14px; color:#2F3A4A;">성별</label>
+                                <select name="gender" required style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+                                    <option value="">선택하세요</option>
+                                    <option value="남">남</option>
+                                    <option value="여">여</option>
+                                    <option value="선택 안 함">선택 안 함</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2: 거주 지역 -->
+                    <div style="padding:20px; background:#F4F6F8; border-radius:8px;">
+                        <h3 style="font-weight:600; margin-bottom:16px; color:#2F3A4A;">2. 거주 지역</h3>
+                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                            <div>
+                                <label style="display:block; margin-bottom:6px; font-size:14px; color:#2F3A4A;">시/도</label>
+                                <input type="text" name="city" required placeholder="예: 서울" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+                            </div>
+                            <div>
+                                <label style="display:block; margin-bottom:6px; font-size:14px; color:#2F3A4A;">구/군</label>
+                                <input type="text" name="district" required placeholder="예: 강남구" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3: 건강 관련 -->
+                    <div style="padding:20px; background:#F4F6F8; border-radius:8px;">
+                        <h3 style="font-weight:600; margin-bottom:16px; color:#2F3A4A;">3. 건강 관련 (선택)</h3>
+                        <div style="display:grid; gap:12px;">
+                            <div>
+                                <label style="display:block; margin-bottom:6px; font-size:14px; color:#2F3A4A;">기저질환</label>
+                                <div style="display:grid; gap:8px;">
+                                    <label style="display:flex; align-items:center; gap:8px;"><input type="checkbox" name="condition" value="없음"> 없음</label>
+                                    <label style="display:flex; align-items:center; gap:8px;"><input type="checkbox" name="condition" value="고혈압"> 고혈압</label>
+                                    <label style="display:flex; align-items:center; gap:8px;"><input type="checkbox" name="condition" value="당뇨"> 당뇨</label>
+                                    <label style="display:flex; align-items:center; gap:8px;"><input type="checkbox" name="condition" value="심장"> 심장</label>
+                                    <label style="display:flex; align-items:center; gap:8px;"><input type="checkbox" name="condition" value="호흡기"> 호흡기</label>
+                                    <label style="display:flex; align-items:center; gap:8px;"><input type="checkbox" name="condition" value="기타"> 기타</label>
+                                </div>
+                            </div>
+                            <div>
+                                <label style="display:block; margin-bottom:6px; font-size:14px; color:#2F3A4A;">복용 약</label>
+                                <input type="text" name="medication" placeholder="예: 혈압약, 당뇨약" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 4: 긴급 연락 -->
+                    <div style="padding:20px; background:#F4F6F8; border-radius:8px;">
+                        <h3 style="font-weight:600; margin-bottom:16px; color:#2F3A4A;">4. 긴급 연락 설정</h3>
+                        <div style="display:grid; gap:12px;">
+                            <div>
+                                <label style="display:block; margin-bottom:6px; font-size:14px; color:#2F3A4A;">가족/자녀 이름</label>
+                                <input type="text" name="contact_name" placeholder="예: 김철수" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+                            </div>
+                            <div>
+                                <label style="display:block; margin-bottom:6px; font-size:14px; color:#2F3A4A;">전화번호</label>
+                                <input type="tel" name="contact_phone" placeholder="예: 010-1234-5678" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
+                            </div>
+                            <label style="display:flex; align-items:center; gap:8px; font-size:14px;">
+                                <input type="checkbox" name="alert_consent">
+                                위험 상황 시 자동 알림 동의
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" style="width:100%; padding:16px; background:#6F8F7E; color:white; border:none; border-radius:8px; font-size:16px; font-weight:600; cursor:pointer;">
+                        정보 저장하고 시작하기
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- 지금 전화하기 모달 -->
+        <div id="call-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:9999;">
+            <div style="max-width:500px; margin:100px auto; background:white; border-radius:16px; padding:32px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+                    <h2 style="font-size:24px; font-weight:bold; color:#2F3A4A;">지금 전화하기</h2>
+                    <button onclick="document.getElementById('call-modal').style.display='none'" style="font-size:24px; color:#8B9098; border:none; background:none; cursor:pointer;">&times;</button>
+                </div>
+                
+                <p style="color:#8B9098; margin-bottom:24px; font-size:14px;">지금 도움이 필요하신가요?</p>
+                
+                <div style="display:grid; gap:12px;">
+                    <button onclick="alert('가족에게 연결 중입니다...')" style="width:100%; padding:20px; background:#F4F6F8; border:1px solid #ddd; border-radius:8px; text-align:left; cursor:pointer; transition:all 0.2s;">
+                        <div style="display:flex; align-items:center; gap:12px;">
+                            <i class="fas fa-user-friends" style="font-size:24px; color:#6F8F7E;"></i>
+                            <div>
+                                <div style="font-weight:600; color:#2F3A4A; margin-bottom:4px;">1️⃣ 가족에게 전화</div>
+                                <div style="font-size:12px; color:#8B9098;">사전 등록된 번호로 즉시 연결</div>
+                            </div>
+                        </div>
+                    </button>
+                    
+                    <button onclick="alert('가까운 병원을 찾고 있습니다...')" style="width:100%; padding:20px; background:#F4F6F8; border:1px solid #ddd; border-radius:8px; text-align:left; cursor:pointer; transition:all 0.2s;">
+                        <div style="display:flex; align-items:center; gap:12px;">
+                            <i class="fas fa-hospital" style="font-size:24px; color:#6F8F7E;"></i>
+                            <div>
+                                <div style="font-weight:600; color:#2F3A4A; margin-bottom:4px;">2️⃣ 가까운 병원 찾기</div>
+                                <div style="font-size:12px; color:#8B9098;">현재 지역 기준 자동 검색 후 연결</div>
+                            </div>
+                        </div>
+                    </button>
+                    
+                    <button onclick="if(confirm('119에 연결하시겠습니까?')) alert('119 연결 중...')" style="width:100%; padding:20px; background:#FF6B6B; border:1px solid #FF6B6B; border-radius:8px; text-align:left; cursor:pointer; transition:all 0.2s; color:white;">
+                        <div style="display:flex; align-items:center; gap:12px;">
+                            <i class="fas fa-ambulance" style="font-size:24px;"></i>
+                            <div>
+                                <div style="font-weight:600; margin-bottom:4px;">3️⃣ 119 응급 신고</div>
+                                <div style="font-size:12px; opacity:0.9;">위급 상황 시 즉시 연결</div>
+                            </div>
+                        </div>
+                    </button>
+                    
+                    <button onclick="alert('AI 상담 연결 중입니다...')" style="width:100%; padding:20px; background:#F4F6F8; border:1px solid #ddd; border-radius:8px; text-align:left; cursor:pointer; transition:all 0.2s;">
+                        <div style="display:flex; align-items:center; gap:12px;">
+                            <i class="fas fa-robot" style="font-size:24px; color:#6F8F7E;"></i>
+                            <div>
+                                <div style="font-weight:600; color:#2F3A4A; margin-bottom:4px;">4️⃣ AI에게 상담</div>
+                                <div style="font-size:12px; color:#8B9098;">지금 상황을 말씀해 주세요</div>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <!-- Footer -->
         <footer class="bg-brand-navy text-white py-12 px-4">
             <div class="max-w-7xl mx-auto text-center">
@@ -447,6 +600,53 @@ app.get('/', (c) => {
 
         <!-- JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
+        <script>
+          // 서비스 시작하기 버튼
+          document.getElementById('cta-button').addEventListener('click', function() {
+            document.getElementById('onboarding-modal').style.display = 'block';
+          });
+          
+          // 지금 전화하기 버튼
+          document.getElementById('call-button').addEventListener('click', function() {
+            document.getElementById('call-modal').style.display = 'block';
+          });
+          
+          // 온보딩 폼 제출
+          document.getElementById('onboarding-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const data = {
+              age: formData.get('age'),
+              gender: formData.get('gender'),
+              city: formData.get('city'),
+              district: formData.get('district'),
+              conditions: formData.getAll('condition'),
+              medication: formData.get('medication'),
+              contact_name: formData.get('contact_name'),
+              contact_phone: formData.get('contact_phone'),
+              alert_consent: formData.get('alert_consent') ? 'ON' : 'OFF'
+            };
+            
+            // localStorage에 저장
+            localStorage.setItem('solocall_user_info', JSON.stringify(data));
+            
+            // 모달 닫기
+            document.getElementById('onboarding-modal').style.display = 'none';
+            
+            // 성공 메시지
+            alert('정보가 저장되었습니다! 이제 SOLOCALL 서비스를 이용하실 수 있습니다.');
+          });
+          
+          // 모달 외부 클릭 시 닫기
+          window.addEventListener('click', function(e) {
+            if (e.target.id === 'onboarding-modal') {
+              document.getElementById('onboarding-modal').style.display = 'none';
+            }
+            if (e.target.id === 'call-modal') {
+              document.getElementById('call-modal').style.display = 'none';
+            }
+          });
+        </script>
         <script src="/static/app.js"></script>
     </body>
     </html>
