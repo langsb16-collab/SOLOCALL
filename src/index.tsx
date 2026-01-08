@@ -119,6 +119,145 @@ app.get('/', (c) => {
           .faq-answer.open {
             max-height: 500px;
           }
+          
+          /* 모바일에서 features-title 30% 축소 */
+          @media (max-width: 768px) {
+            #features-title {
+              font-size: 1.4rem !important;
+              line-height: 1.2;
+            }
+          }
+          
+          /* 챗봇 버튼 스타일 */
+          #chatbot-button {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #6F8F7E 0%, #5a7366 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-center;
+            box-shadow: 0 4px 12px rgba(111, 143, 126, 0.4);
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.3s ease;
+          }
+          
+          #chatbot-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(111, 143, 126, 0.6);
+          }
+          
+          #chatbot-button i {
+            color: white;
+            font-size: 24px;
+          }
+          
+          /* 챗봇 모달 */
+          #chatbot-modal {
+            display: none;
+            position: fixed;
+            bottom: 100px;
+            right: 24px;
+            width: 90%;
+            max-width: 400px;
+            max-height: 600px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(47, 58, 74, 0.2);
+            z-index: 999;
+            overflow: hidden;
+          }
+          
+          #chatbot-modal.active {
+            display: flex;
+            flex-direction: column;
+            animation: slideUp 0.3s ease;
+          }
+          
+          @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          
+          #chatbot-header {
+            background: linear-gradient(135deg, #2F3A4A 0%, #1F3C5A 100%);
+            color: white;
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          
+          #chatbot-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+          }
+          
+          .faq-item-chatbot {
+            background: #F4F6F8;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+          }
+          
+          .faq-item-chatbot:hover {
+            background: #e8eaed;
+          }
+          
+          .faq-item-chatbot-question {
+            font-weight: 500;
+            color: #2F3A4A;
+            margin-bottom: 8px;
+          }
+          
+          .faq-item-chatbot-answer {
+            font-size: 0.9rem;
+            color: #8B9098;
+            display: none;
+          }
+          
+          .faq-item-chatbot.active .faq-item-chatbot-answer {
+            display: block;
+          }
+          
+          #chatbot-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            padding: 12px;
+            border-top: 1px solid #e5e7eb;
+          }
+          
+          .page-btn {
+            padding: 6px 12px;
+            background: #F4F6F8;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+          }
+          
+          .page-btn:hover {
+            background: #e8eaed;
+          }
+          
+          .page-btn.active {
+            background: #6F8F7E;
+            color: white;
+          }
+          
+          .page-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+          }
         </style>
     </head>
     <body class="smooth-scroll">
@@ -225,6 +364,36 @@ app.get('/', (c) => {
                 </div>
             </div>
         </section>
+
+        <!-- Chatbot Button -->
+        <div id="chatbot-button" title="FAQ 챗봇">
+            <i class="fas fa-comments"></i>
+        </div>
+
+        <!-- Chatbot Modal -->
+        <div id="chatbot-modal">
+            <div id="chatbot-header">
+                <div>
+                    <h3 class="font-bold text-lg">FAQ 챗봇</h3>
+                    <p class="text-sm opacity-80">자주 묻는 질문</p>
+                </div>
+                <button id="chatbot-close" class="text-white hover:text-gray-300 transition">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            <div id="chatbot-content">
+                <!-- FAQ items will be populated by JavaScript -->
+            </div>
+            <div id="chatbot-pagination">
+                <button id="prev-page" class="page-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <span id="page-info" class="text-sm text-brand-gray">1 / 4</span>
+                <button id="next-page" class="page-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
 
         <!-- Footer -->
         <footer class="bg-brand-navy text-white py-12 px-4">

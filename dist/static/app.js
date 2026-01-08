@@ -2,6 +2,8 @@
 let currentLang = 'ko'
 let currentLocale = null
 let availableLanguages = []
+let currentPage = 1
+const itemsPerPage = 10
 
 // Initialize application
 async function init() {
@@ -22,6 +24,9 @@ async function init() {
     
     // Render language selector
     renderLanguageSelector()
+    
+    // Initialize chatbot
+    initChatbot()
     
   } catch (error) {
     console.error('Initialization error:', error)
@@ -259,6 +264,119 @@ function closeLangDropdown() {
   if (langDropdown) {
     langDropdown.classList.remove('open')
   }
+}
+
+// Initialize chatbot
+function initChatbot() {
+  const chatbotButton = document.getElementById('chatbot-button')
+  const chatbotModal = document.getElementById('chatbot-modal')
+  const chatbotClose = document.getElementById('chatbot-close')
+  const prevPage = document.getElementById('prev-page')
+  const nextPage = document.getElementById('next-page')
+  
+  if (!chatbotButton || !chatbotModal) return
+  
+  // Toggle chatbot modal
+  chatbotButton.addEventListener('click', () => {
+    chatbotModal.classList.toggle('active')
+    if (chatbotModal.classList.contains('active')) {
+      renderChatbotFAQ()
+    }
+  })
+  
+  // Close chatbot
+  chatbotClose.addEventListener('click', () => {
+    chatbotModal.classList.remove('active')
+  })
+  
+  // Pagination
+  prevPage.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--
+      renderChatbotFAQ()
+    }
+  })
+  
+  nextPage.addEventListener('click', () => {
+    const totalPages = getTotalPages()
+    if (currentPage < totalPages) {
+      currentPage++
+      renderChatbotFAQ()
+    }
+  })
+  
+  // Close on outside click
+  document.addEventListener('click', (e) => {
+    if (!chatbotModal.contains(e.target) && !chatbotButton.contains(e.target)) {
+      chatbotModal.classList.remove('active')
+    }
+  })
+}
+
+// Get total pages for pagination
+function getTotalPages() {
+  if (!currentLocale || !currentLocale.faq || !currentLocale.faq.categories) return 1
+  
+  let totalQuestions = 0
+  currentLocale.faq.categories.forEach(category => {
+    totalQuestions += category.questions.length
+  })
+  
+  return Math.ceil(totalQuestions / itemsPerPage)
+}
+
+// Render chatbot FAQ with pagination
+function renderChatbotFAQ() {
+  const chatbotContent = document.getElementById('chatbot-content')
+  const pageInfo = document.getElementById('page-info')
+  const prevBtn = document.getElementById('prev-page')
+  const nextBtn = document.getElementById('next-page')
+  
+  if (!chatbotContent || !currentLocale || !currentLocale.faq) return
+  
+  // Collect all questions
+  let allQuestions = []
+  currentLocale.faq.categories.forEach(category => {
+    category.questions.forEach(q => {
+      allQuestions.push({
+        category: category.name,
+        question: q.q,
+        answer: q.a
+      })
+    })
+  })
+  
+  // Calculate pagination
+  const totalPages = Math.ceil(allQuestions.length / itemsPerPage)
+  const startIndex = (currentPage - 1) * itemsPerPage
+  const endIndex = startIndex + itemsPerPage
+  const pageQuestions = allQuestions.slice(startIndex, endIndex)
+  
+  // Render questions
+  chatbotContent.innerHTML = pageQuestions.map((item, index) => `
+    <div class="faq-item-chatbot" data-index="${index}">
+      <div class="faq-item-chatbot-question">
+        <i class="fas fa-comment-dots mr-2 text-brand-sage"></i>
+        ${item.question}
+      </div>
+      <div class="faq-item-chatbot-answer">
+        <i class="fas fa-arrow-right mr-2 text-brand-sage"></i>
+        ${item.answer}
+      </div>
+    </div>
+  `).join('')
+  
+  // Update pagination
+  pageInfo.textContent = `${currentPage} / ${totalPages}`
+  prevBtn.disabled = currentPage === 1
+  nextBtn.disabled = currentPage === totalPages
+  
+  // Add click events to toggle answers
+  document.querySelectorAll('.faq-item-chatbot').forEach(item => {
+    item.addEventListener('click', () => {
+      item.classList.toggle('active')
+    })
+  })
 }
 
 // Initialize on page load
