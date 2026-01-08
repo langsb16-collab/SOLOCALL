@@ -126,6 +126,35 @@ app.get('/', (c) => {
               font-size: 1.4rem !important;
               line-height: 1.2;
             }
+            
+            /* 모바일에서 곤색 헤더(Hero) 여백 축소 */
+            #home {
+              padding-top: 5rem !important;
+              padding-bottom: 3rem !important;
+            }
+            
+            /* 모바일에서 섹션 여백 축소 */
+            #features, #how-it-works, #faq {
+              padding-top: 2.5rem !important;
+              padding-bottom: 2.5rem !important;
+            }
+            
+            /* 모바일에서 제목 하단 여백 축소 */
+            #home .max-w-6xl {
+              margin-bottom: 0 !important;
+            }
+            
+            #hero-title {
+              margin-bottom: 1rem !important;
+            }
+            
+            #hero-subtitle {
+              margin-bottom: 0.75rem !important;
+            }
+            
+            #hero-description {
+              margin-bottom: 1.5rem !important;
+            }
           }
           
           /* 챗봇 버튼 스타일 */
