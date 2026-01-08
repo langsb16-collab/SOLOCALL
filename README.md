@@ -278,7 +278,7 @@ wrangler pages deploy dist --project-name solocall
 ## 🔗 주요 URL
 
 - **개발 서버**: https://3000-iopwwwabto40xp4vovsol-8f57ffe2.sandbox.novita.ai
-- **GitHub**: (To be added)
+- **GitHub**: https://github.com/langsb16-collab/SOLOCALL
 - **Cloudflare Pages**: (To be deployed)
 
 ---
