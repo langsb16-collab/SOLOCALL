@@ -1,9 +1,9 @@
 {
-  "lang": "en-GB",
-  "langName": "English (UK)",
+  "lang": "en",
+  "langName": "English",
   "meta": {
     "title": "SOLOCALL | AI Voice-First Life Support Platform",
-    "description": "A phone-based AI life support platform for middle-aged and senior singles. Solve hospital appointments, administrative procedures, and health information with just one call."
+    "description": "Phone-based AI life support platform for middle-aged and senior individuals living alone. Solve hospital appointments, administrative procedures, and health information with just one call."
   },
   "nav": {
     "home": "Home",
@@ -13,25 +13,25 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Alone but Not Lonely",
-    "subtitle": "Your AI Life Partner<br/>Just One Call Away",
-    "description": "A voice-first platform that handles hospital appointments, administrative procedures,<br/>and health information for you—no app installation required.",
+    "title": "Alone, but Not Lonely",
+    "subtitle": "Your AI Life Partner<br/>Solving Daily Challenges with One Call",
+    "description": "A voice-first platform that handles hospital appointments, administrative procedures,<br/>and health information via phone - no app installation required.",
     "cta": "Get Started",
-    "callNow": "Ring Now"
+    "callNow": "Call Now"
   },
   "features": {
     "title": "SOLOCALL Services",
-    "subtitle": "Everything sorted with just one phone call",
+    "subtitle": "Everything solved with one phone call",
     "items": [
       {
         "icon": "fa-phone-volume",
-        "title": "Hospital & Government Call Service",
-        "description": "AI handles hospital appointments and public agency enquiries for you. Get results without waiting."
+        "title": "Hospital & Public Office Proxy",
+        "description": "AI handles hospital appointments and public office inquiries for you. Get results without waiting."
       },
       {
         "icon": "fa-heartbeat",
-        "title": "Health Information Organisation",
-        "description": "Tell us your symptoms and we'll organise them. We prepare questions you need before hospital visits."
+        "title": "Health Information Summary",
+        "description": "Tell us your symptoms and we'll organize them. We'll also prepare questions for your hospital visit."
       },
       {
         "icon": "fa-users",
@@ -40,66 +40,219 @@
       },
       {
         "icon": "fa-shield-alt",
-        "title": "Scam Call Protection",
-        "description": "Real-time detection of suspicious voice phishing calls with immediate alerts."
+        "title": "Scam Call Detection",
+        "description": "Real-time detection of suspected voice phishing calls with immediate alerts."
       },
       {
         "icon": "fa-clipboard-list",
         "title": "Life Manager",
-        "description": "Manage daily life by phone: weather, schedule, medication reminders, and more."
+        "description": "Manage daily life via phone: weather, schedules, medication reminders, and more."
       },
       {
         "icon": "fa-hand-holding-heart",
-        "title": "24/7 Wellness Check",
-        "description": "We ring at scheduled times to check on you. Speak slowly and comfortably."
+        "title": "24/7 Welfare Check",
+        "description": "Scheduled check-in calls. Speak slowly and comfortably at your own pace."
       }
     ]
   },
   "howItWorks": {
-    "title": "How It Works",
+    "title": "How to Use",
     "steps": [
       {
         "number": "1",
-        "title": "Make a Call",
-        "description": "Ring or receive a call from the registered number"
+        "title": "Call",
+        "description": "Call or receive a call from the registered number"
       },
       {
         "number": "2",
-        "title": "Just Speak",
+        "title": "Speak",
         "description": "Tell us what you need, slowly and comfortably"
       },
       {
         "number": "3",
-        "title": "We Handle It",
-        "description": "AI processes it for you and provides results"
+        "title": "Solved",
+        "description": "AI handles it and provides you with the results"
       }
     ]
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Find answers to common questions",
+    "subtitle": "Find answers to your questions",
     "categories": [
       {
-        "name": "Service Basics",
+        "name": "Basic Service Understanding",
         "questions": [
           {
-            "q": "What does this service do?",
-            "a": "With one phone call, we handle or organise hospital, administrative, health, and daily living issues for you."
+            "q": "What does this service help with?",
+            "a": "With one phone call, we handle or organize hospital, administrative, health, and daily life issues for you."
           },
           {
             "q": "Do I need to install an app?",
-            "a": "No. All you need is a telephone."
+            "a": "No. You only need a phone to use the service."
           },
           {
             "q": "Who is this service for?",
             "a": "This is a phone-based life support service for middle-aged and senior individuals living alone."
+          },
+          {
+            "q": "Do I need complicated operations?",
+            "a": "No. You just need to speak."
+          },
+          {
+            "q": "Am I speaking with a human agent?",
+            "a": "Instead of a person, AI helps you over the phone."
+          },
+          {
+            "q": "Can I speak slowly?",
+            "a": "Yes. You can speak slowly and comfortably."
+          },
+          {
+            "q": "Does it remember previous conversations?",
+            "a": "Yes. It references previous conversations to help you better."
+          }
+        ]
+      },
+      {
+        "name": "Hospital & Public Office Proxy",
+        "questions": [
+          {
+            "q": "Can you make hospital appointments for me?",
+            "a": "Yes. We call the hospital directly to handle appointments and inquiries."
+          },
+          {
+            "q": "Can you handle district offices or community centers?",
+            "a": "Yes. We check procedures, documents, and relevant departments for you."
+          },
+          {
+            "q": "Can you wait on hold for me?",
+            "a": "Yes. We handle waiting and IVR systems - you just get the results."
+          },
+          {
+            "q": "How are results delivered?",
+            "a": "We call you back to explain or summarize the results."
+          },
+          {
+            "q": "Can I request multiple revisions?",
+            "a": "Yes. If you need to reconfirm, we'll call again."
+          },
+          {
+            "q": "What types of calls can you make for me?",
+            "a": "Hospitals, public institutions, and daily service inquiries."
+          },
+          {
+            "q": "What if the call doesn't go through?",
+            "a": "We'll try again or provide alternative solutions."
+          }
+        ]
+      },
+      {
+        "name": "Health Information Summary (Non-medical)",
+        "questions": [
+          {
+            "q": "Can I describe my symptoms?",
+            "a": "Yes. We'll organize the information for you."
+          },
+          {
+            "q": "Will you tell me if I should go to the hospital?",
+            "a": "It's not a diagnosis, but we can advise whether a visit is recommended."
+          },
+          {
+            "q": "Do you replace doctor consultations?",
+            "a": "No. We do not perform medical acts."
+          },
+          {
+            "q": "Can you help prepare questions before my hospital visit?",
+            "a": "Yes. We'll organize necessary questions for you."
+          },
+          {
+            "q": "Can I get help when I'm anxious?",
+            "a": "Yes. We'll organize the situation and provide guidance."
+          },
+          {
+            "q": "Are health records kept?",
+            "a": "Only to the extent necessary."
+          }
+        ]
+      },
+      {
+        "name": "Family Communication Bridge",
+        "questions": [
+          {
+            "q": "Will my status be shared with family?",
+            "a": "Only briefly and only when necessary."
+          },
+          {
+            "q": "Is my family always notified?",
+            "a": "No. Only in unusual situations."
+          },
+          {
+            "q": "Will I feel surveilled?",
+            "a": "No. We prioritize your autonomy."
+          },
+          {
+            "q": "What information is shared?",
+            "a": "Only minimal information such as condition summaries."
+          },
+          {
+            "q": "Can I turn off sharing if I don't want it?",
+            "a": "Yes. You can adjust settings anytime."
+          }
+        ]
+      },
+      {
+        "name": "Scam & Risk Call Detection",
+        "questions": [
+          {
+            "q": "Can you block voice phishing?",
+            "a": "Yes. We detect suspicious calls in real-time."
+          },
+          {
+            "q": "How are risks communicated?",
+            "a": "You'll receive an immediate voice alert during the call."
+          },
+          {
+            "q": "Will you explain why it's risky?",
+            "a": "Yes. We provide clear and simple explanations."
+          },
+          {
+            "q": "Do I have to hang up myself?",
+            "a": "Yes. The decision to hang up is yours."
+          },
+          {
+            "q": "Will my family be notified?",
+            "a": "If necessary, we can notify your guardian."
+          }
+        ]
+      },
+      {
+        "name": "Life Manager & Others",
+        "questions": [
+          {
+            "q": "Can you provide weather or schedule information?",
+            "a": "Yes. We provide immediate guidance via phone."
+          },
+          {
+            "q": "Can you remind me to take medication?",
+            "a": "Yes. We help with daily life reminders."
+          },
+          {
+            "q": "What happens in urgent situations?",
+            "a": "We immediately connect you to help."
+          },
+          {
+            "q": "How do I use the service again?",
+            "a": "Just call anytime."
+          },
+          {
+            "q": "What's the biggest advantage of this service?",
+            "a": "You don't have to solve problems alone."
           }
         ]
       }
     ]
   },
   "footer": {
-    "tagline": "Alone but not lonely, together with SOLOCALL",
+    "tagline": "Alone, but not lonely - with SOLOCALL",
     "contact": "Contact: support@solocall.com",
     "copyright": "© 2026 SOLOCALL. All rights reserved."
   }

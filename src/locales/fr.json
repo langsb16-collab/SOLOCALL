@@ -2,8 +2,8 @@
   "lang": "fr",
   "langName": "Français",
   "meta": {
-    "title": "SOLOCALL | Plateforme de soutien à la vie par IA vocale",
-    "description": "Une plateforme de soutien à la vie par IA basée sur le téléphone pour les adultes d'âge moyen et les seniors vivant seuls. Résolvez les rendez-vous médicaux, les procédures administratives et les informations de santé en un seul appel."
+    "title": "SOLOCALL | Plateforme de soutien à la vie basée sur la voix IA",
+    "description": "Plateforme de soutien à la vie basée sur téléphone avec IA pour les personnes d'âge moyen et les seniors vivant seuls. Résolvez les rendez-vous médicaux, les procédures administratives et les informations de santé en un seul appel."
   },
   "nav": {
     "home": "Accueil",
@@ -13,94 +13,106 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Seul mais pas solitaire",
-    "subtitle": "Votre partenaire de vie IA<br/>à un seul appel",
-    "description": "Une plateforme vocale qui gère les rendez-vous médicaux, les procédures administratives<br/>et les informations de santé pour vous—sans installation d'application requise.",
+    "title": "Seul mais pas seul",
+    "subtitle": "Votre partenaire de vie IA<br/>Résoudre les défis quotidiens avec un appel",
+    "description": "Une plateforme basée sur la voix qui gère les rendez-vous médicaux, les procédures administratives<br/>et les informations de santé par téléphone - aucune installation d'application requise.",
     "cta": "Commencer",
     "callNow": "Appelez maintenant"
   },
   "features": {
     "title": "Services SOLOCALL",
-    "subtitle": "Tout résolu avec un seul appel téléphonique",
+    "subtitle": "Tout résolu avec un appel téléphonique",
     "items": [
-      {
-        "icon": "fa-phone-volume",
-        "title": "Service d'appels hospitaliers et gouvernementaux",
-        "description": "L'IA gère les rendez-vous médicaux et les demandes d'agences publiques pour vous. Obtenez des résultats sans attendre."
-      },
-      {
-        "icon": "fa-heartbeat",
-        "title": "Organisation des informations de santé",
-        "description": "Parlez-nous de vos symptômes et nous les organiserons. Nous préparons les questions dont vous avez besoin avant les visites médicales."
-      },
-      {
-        "icon": "fa-users",
-        "title": "Pont de communication familiale",
-        "description": "Partagez votre statut avec la famille uniquement si nécessaire. Connexion pour la tranquillité d'esprit, pas la surveillance."
-      },
-      {
-        "icon": "fa-shield-alt",
-        "title": "Protection contre les appels frauduleux",
-        "description": "Détection en temps réel des appels de phishing suspects avec alertes immédiates."
-      },
-      {
-        "icon": "fa-clipboard-list",
-        "title": "Gestionnaire de vie",
-        "description": "Gérez la vie quotidienne par téléphone : météo, agenda, rappels de médicaments et plus."
-      },
-      {
-        "icon": "fa-hand-holding-heart",
-        "title": "Vérification du bien-être 24/7",
-        "description": "Nous appelons aux heures programmées pour vérifier votre bien-être. Parlez lentement et confortablement."
-      }
+      {"icon": "fa-phone-volume", "title": "Représentation à l'hôpital et aux bureaux publics", "description": "L'IA gère les rendez-vous médicaux et les demandes aux bureaux publics pour vous. Obtenez des résultats sans attendre."},
+      {"icon": "fa-heartbeat", "title": "Résumé des informations de santé", "description": "Dites-nous vos symptômes et nous les organiserons. Nous préparerons également des questions pour votre visite à l'hôpital."},
+      {"icon": "fa-users", "title": "Pont de communication familiale", "description": "Partagez votre état avec la famille uniquement lorsque nécessaire. Connexion pour la tranquillité d'esprit, pas la surveillance."},
+      {"icon": "fa-shield-alt", "title": "Détection d'appels frauduleux", "description": "Détection en temps réel des appels suspects de phishing avec alertes immédiates."},
+      {"icon": "fa-clipboard-list", "title": "Gestionnaire de vie", "description": "Gérez la vie quotidienne par téléphone : météo, horaires, rappels de médicaments et plus."},
+      {"icon": "fa-hand-holding-heart", "title": "Vérification du bien-être 24/7", "description": "Appels de vérification programmés. Parlez lentement et confortablement à votre propre rythme."}
     ]
   },
   "howItWorks": {
-    "title": "Comment ça marche",
+    "title": "Comment utiliser",
     "steps": [
-      {
-        "number": "1",
-        "title": "Passer un appel",
-        "description": "Appelez ou recevez un appel du numéro enregistré"
-      },
-      {
-        "number": "2",
-        "title": "Parlez simplement",
-        "description": "Dites-nous ce dont vous avez besoin, lentement et confortablement"
-      },
-      {
-        "number": "3",
-        "title": "Nous nous en occupons",
-        "description": "L'IA le traite pour vous et fournit les résultats"
-      }
+      {"number": "1", "title": "Appeler", "description": "Appelez ou recevez un appel du numéro enregistré"},
+      {"number": "2", "title": "Parler", "description": "Dites-nous ce dont vous avez besoin, lentement et confortablement"},
+      {"number": "3", "title": "Résolu", "description": "L'IA s'en occupe et vous fournit les résultats"}
     ]
   },
   "faq": {
     "title": "Questions fréquemment posées",
-    "subtitle": "Trouvez des réponses aux questions courantes",
+    "subtitle": "Trouvez des réponses à vos questions",
     "categories": [
       {
-        "name": "Bases du service",
+        "name": "Compréhension de base du service",
         "questions": [
-          {
-            "q": "Que fait ce service ?",
-            "a": "Avec un seul appel téléphonique, nous gérons ou organisons les problèmes d'hôpital, administratifs, de santé et de vie quotidienne pour vous."
-          },
-          {
-            "q": "Dois-je installer une application ?",
-            "a": "Non. Tout ce dont vous avez besoin est un téléphone."
-          },
-          {
-            "q": "À qui s'adresse ce service ?",
-            "a": "Il s'agit d'un service de soutien à la vie basé sur le téléphone pour les personnes d'âge moyen et les seniors vivant seuls."
-          }
+          {"q": "En quoi ce service aide-t-il?", "a": "Avec un appel, nous gérons ou organisons les problèmes d'hôpital, administratifs, de santé et de la vie quotidienne pour vous."},
+          {"q": "Dois-je installer une application?", "a": "Non. Vous n'avez besoin que d'un téléphone pour utiliser le service."},
+          {"q": "Pour qui est ce service?", "a": "Il s'agit d'un service de soutien à la vie basé sur téléphone pour les personnes d'âge moyen et les seniors vivant seuls."},
+          {"q": "Des opérations compliquées sont-elles requises?", "a": "Non. Vous n'avez qu'à parler."},
+          {"q": "Est-ce que je parle avec un agent humain?", "a": "Au lieu d'une personne, l'IA vous aide par téléphone."},
+          {"q": "Puis-je parler lentement?", "a": "Oui. Vous pouvez parler lentement et confortablement."},
+          {"q": "Se souvient-il des conversations précédentes?", "a": "Oui. Il fait référence aux conversations précédentes pour mieux vous aider."}
+        ]
+      },
+      {
+        "name": "Représentation à l'hôpital et aux bureaux publics",
+        "questions": [
+          {"q": "Pouvez-vous prendre des rendez-vous médicaux pour moi?", "a": "Oui. Nous appelons directement l'hôpital pour gérer les rendez-vous et les demandes."},
+          {"q": "Pouvez-vous gérer les bureaux de district ou les centres communautaires?", "a": "Oui. Nous vérifions les procédures, les documents et les départements pertinents pour vous."},
+          {"q": "Pouvez-vous attendre en attente pour moi?", "a": "Oui. Nous gérons les systèmes d'attente et IVR - vous obtenez juste les résultats."},
+          {"q": "Comment les résultats sont-ils livrés?", "a": "Nous vous rappelons pour expliquer ou résumer les résultats."},
+          {"q": "Puis-je demander plusieurs révisions?", "a": "Oui. Si vous devez reconfirmer, nous rappellerons."},
+          {"q": "Quels types d'appels pouvez-vous passer pour moi?", "a": "Hôpitaux, institutions publiques et demandes de services quotidiens."},
+          {"q": "Que se passe-t-il si l'appel ne passe pas?", "a": "Nous réessaierons ou fournirons des solutions alternatives."}
+        ]
+      },
+      {
+        "name": "Résumé des informations de santé (non médical)",
+        "questions": [
+          {"q": "Puis-je décrire mes symptômes?", "a": "Oui. Nous organiserons les informations pour vous."},
+          {"q": "Me direz-vous si je dois aller à l'hôpital?", "a": "Ce n'est pas un diagnostic, mais nous pouvons conseiller si une visite est recommandée."},
+          {"q": "Remplacez-vous les consultations médicales?", "a": "Non. Nous n'effectuons pas d'actes médicaux."},
+          {"q": "Pouvez-vous m'aider à préparer des questions avant ma visite à l'hôpital?", "a": "Oui. Nous organiserons les questions nécessaires pour vous."},
+          {"q": "Puis-je obtenir de l'aide quand je suis anxieux?", "a": "Oui. Nous organiserons la situation et fournirons des conseils."},
+          {"q": "Les dossiers de santé sont-ils conservés?", "a": "Uniquement dans la mesure nécessaire."}
+        ]
+      },
+      {
+        "name": "Pont de communication familiale",
+        "questions": [
+          {"q": "Mon état sera-t-il partagé avec la famille?", "a": "Uniquement brièvement et uniquement lorsque nécessaire."},
+          {"q": "Ma famille est-elle toujours notifiée?", "a": "Non. Uniquement dans des situations inhabituelles."},
+          {"q": "Me sentirai-je surveillé?", "a": "Non. Nous priorisons votre autonomie."},
+          {"q": "Quelles informations sont partagées?", "a": "Uniquement des informations minimales comme des résumés de condition."},
+          {"q": "Puis-je désactiver le partage si je ne le veux pas?", "a": "Oui. Vous pouvez ajuster les paramètres à tout moment."}
+        ]
+      },
+      {
+        "name": "Détection d'appels frauduleux et de risque",
+        "questions": [
+          {"q": "Pouvez-vous bloquer le phishing vocal?", "a": "Oui. Nous détectons les appels suspects en temps réel."},
+          {"q": "Comment les risques sont-ils communiqués?", "a": "Vous recevrez une alerte vocale immédiate pendant l'appel."},
+          {"q": "Expliquerez-vous pourquoi c'est risqué?", "a": "Oui. Nous fournissons des explications claires et simples."},
+          {"q": "Dois-je raccrocher moi-même?", "a": "Oui. La décision de raccrocher est à vous."},
+          {"q": "Ma famille sera-t-elle notifiée?", "a": "Si nécessaire, nous pouvons notifier votre tuteur."}
+        ]
+      },
+      {
+        "name": "Gestionnaire de vie et autres",
+        "questions": [
+          {"q": "Pouvez-vous fournir des informations météorologiques ou d'horaires?", "a": "Oui. Nous fournissons des conseils immédiats par téléphone."},
+          {"q": "Pouvez-vous me rappeler de prendre des médicaments?", "a": "Oui. Nous aidons avec les rappels de la vie quotidienne."},
+          {"q": "Que se passe-t-il dans des situations urgentes?", "a": "Nous vous connectons immédiatement à l'aide."},
+          {"q": "Comment utiliser à nouveau le service?", "a": "Appelez simplement à tout moment."},
+          {"q": "Quel est le plus grand avantage de ce service?", "a": "Vous n'avez pas à résoudre les problèmes seul."}
         ]
       }
     ]
   },
   "footer": {
-    "tagline": "Seul mais pas solitaire, avec SOLOCALL",
-    "contact": "Contact : support@solocall.com",
+    "tagline": "Seul mais pas seul - avec SOLOCALL",
+    "contact": "Contact: support@solocall.com",
     "copyright": "© 2026 SOLOCALL. Tous droits réservés."
   }
 }

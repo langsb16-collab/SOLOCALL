@@ -2,8 +2,8 @@
   "lang": "de",
   "langName": "Deutsch",
   "meta": {
-    "title": "SOLOCALL | KI-Sprachbasierte Lebensunterstützungsplattform",
-    "description": "Eine telefonbasierte KI-Lebensunterstützungsplattform für alleinstehende Erwachsene und Senioren. Lösen Sie Krankenhaustermine, Verwaltungsverfahren und Gesundheitsinformationen mit nur einem Anruf."
+    "title": "SOLOCALL | KI-basierte Sprachunterstützungsplattform",
+    "description": "Telefonbasierte KI-Lebensunterstützungsplattform für alleinstehende Personen mittleren Alters und Senioren. Lösen Sie Krankenhausterm​ine, Verwaltungsverfahren und Gesundheitsinformationen mit nur einem Anruf."
   },
   "nav": {
     "home": "Startseite",
@@ -14,44 +14,44 @@
   },
   "hero": {
     "title": "Allein, aber nicht einsam",
-    "subtitle": "Ihr KI-Lebenspartner<br/>nur einen Anruf entfernt",
-    "description": "Eine sprachbasierte Plattform, die Krankenhaustermine,<br/>Verwaltungsverfahren und Gesundheitsinformationen für Sie erledigt—keine App-Installation erforderlich.",
-    "cta": "Jetzt beginnen",
+    "subtitle": "Ihr KI-Lebenspartner<br/>Alltag lösen mit einem Anruf",
+    "description": "Eine sprachgestützte Plattform, die Krankenhausterm​ine, Verwaltungsverfahren<br/>und Gesundheitsinformationen per Telefon verwaltet - keine App-Installation erforderlich.",
+    "cta": "Jetzt starten",
     "callNow": "Jetzt anrufen"
   },
   "features": {
-    "title": "SOLOCALL Services",
-    "subtitle": "Alles mit nur einem Anruf gelöst",
+    "title": "SOLOCALL-Dienste",
+    "subtitle": "Alles mit einem Anruf gelöst",
     "items": [
       {
         "icon": "fa-phone-volume",
-        "title": "Krankenhaus & Behördenanrufservice",
-        "description": "KI übernimmt Krankenhaustermine und Behördenanfragen für Sie. Erhalten Sie Ergebnisse ohne Wartezeit."
+        "title": "Krankenhaus- & Behördenvertretung",
+        "description": "KI übernimmt Krankenhaustermine und Behördenanfragen. Erhalten Sie Ergebnisse ohne Wartezeit."
       },
       {
         "icon": "fa-heartbeat",
-        "title": "Gesundheitsinformationsorganisation",
-        "description": "Teilen Sie uns Ihre Symptome mit und wir organisieren sie. Wir bereiten Fragen vor, die Sie vor Arztbesuchen benötigen."
+        "title": "Gesundheitsinformationszusammenfassung",
+        "description": "Erzählen Sie uns Ihre Symptome und wir organisieren sie. Wir bereiten auch Fragen für Ihren Arztbesuch vor."
       },
       {
         "icon": "fa-users",
         "title": "Familienkommunikationsbrücke",
-        "description": "Teilen Sie Ihren Status mit der Familie nur bei Bedarf. Verbindung für Seelenfrieden, nicht Überwachung."
+        "description": "Teilen Sie Ihren Status nur bei Bedarf mit der Familie. Verbindung für Sicherheit, nicht Überwachung."
       },
       {
         "icon": "fa-shield-alt",
-        "title": "Betrugsanrufschutz",
-        "description": "Echtzeiterkennung verdächtiger Phishing-Anrufe mit sofortigen Warnungen."
+        "title": "Betrugserkennung",
+        "description": "Echtzeiterkennung verdächtiger Phishing-Anrufe mit sofortiger Warnung."
       },
       {
         "icon": "fa-clipboard-list",
         "title": "Lebensmanager",
-        "description": "Verwalten Sie das tägliche Leben per Telefon: Wetter, Termine, Medikamentenerinnerungen und mehr."
+        "description": "Verwalten Sie den Alltag per Telefon: Wetter, Termine, Medikamentenerinnerungen und mehr."
       },
       {
         "icon": "fa-hand-holding-heart",
-        "title": "24/7 Wellness-Check",
-        "description": "Wir rufen zu geplanten Zeiten an, um nach Ihnen zu sehen. Sprechen Sie langsam und bequem."
+        "title": "24/7-Wohlfahrtskontrolle",
+        "description": "Geplante Check-in-Anrufe. Sprechen Sie langsam und bequem in Ihrem eigenen Tempo."
       }
     ]
   },
@@ -61,45 +61,198 @@
       {
         "number": "1",
         "title": "Anrufen",
-        "description": "Rufen Sie die registrierte Nummer an oder empfangen Sie einen Anruf"
+        "description": "Rufen Sie die registrierte Nummer an oder nehmen Sie einen Anruf entgegen"
       },
       {
         "number": "2",
-        "title": "Einfach sprechen",
+        "title": "Sprechen",
         "description": "Sagen Sie uns, was Sie brauchen, langsam und bequem"
       },
       {
         "number": "3",
-        "title": "Wir kümmern uns darum",
-        "description": "KI verarbeitet es für Sie und liefert Ergebnisse"
+        "title": "Gelöst",
+        "description": "KI kümmert sich darum und liefert Ihnen die Ergebnisse"
       }
     ]
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Finden Sie Antworten auf häufige Fragen",
+    "subtitle": "Finden Sie Antworten auf Ihre Fragen",
     "categories": [
       {
-        "name": "Service-Grundlagen",
+        "name": "Grundlegendes Serviceverständnis",
         "questions": [
           {
-            "q": "Was macht dieser Service?",
-            "a": "Mit einem Anruf erledigen oder organisieren wir Krankenhaus-, Verwaltungs-, Gesundheits- und Alltagsprobleme für Sie."
+            "q": "Wobei hilft dieser Service?",
+            "a": "Mit einem Anruf bearbeiten oder organisieren wir Krankenhaus-, Verwaltungs-, Gesundheits- und Alltagsprobleme für Sie."
           },
           {
             "q": "Muss ich eine App installieren?",
-            "a": "Nein. Alles, was Sie brauchen, ist ein Telefon."
+            "a": "Nein. Sie benötigen nur ein Telefon, um den Service zu nutzen."
           },
           {
             "q": "Für wen ist dieser Service?",
-            "a": "Dies ist ein telefonbasierter Lebensunterstützungsservice für alleinstehende Erwachsene und Senioren."
+            "a": "Dies ist ein telefonbasierter Lebensunterstützungsdienst für alleinstehende Personen mittleren Alters und Senioren."
+          },
+          {
+            "q": "Sind komplizierte Operationen erforderlich?",
+            "a": "Nein. Sie müssen nur sprechen."
+          },
+          {
+            "q": "Spreche ich mit einem menschlichen Agenten?",
+            "a": "Anstelle einer Person hilft Ihnen KI über das Telefon."
+          },
+          {
+            "q": "Kann ich langsam sprechen?",
+            "a": "Ja. Sie können langsam und bequem sprechen."
+          },
+          {
+            "q": "Erinnert es sich an frühere Gespräche?",
+            "a": "Ja. Es bezieht sich auf frühere Gespräche, um Ihnen besser zu helfen."
+          }
+        ]
+      },
+      {
+        "name": "Krankenhaus- & Behördenvertretung",
+        "questions": [
+          {
+            "q": "Können Sie Krankenhaustermine für mich vereinbaren?",
+            "a": "Ja. Wir rufen das Krankenhaus direkt an, um Termine und Anfragen zu bearbeiten."
+          },
+          {
+            "q": "Können Sie mit Bezirksämtern oder Gemeindezentren umgehen?",
+            "a": "Ja. Wir überprüfen Verfahren, Dokumente und zuständige Abteilungen für Sie."
+          },
+          {
+            "q": "Können Sie für mich in der Warteschleife warten?",
+            "a": "Ja. Wir kümmern uns um Warte- und IVR-Systeme - Sie erhalten nur die Ergebnisse."
+          },
+          {
+            "q": "Wie werden Ergebnisse geliefert?",
+            "a": "Wir rufen Sie zurück, um die Ergebnisse zu erklären oder zusammenzufassen."
+          },
+          {
+            "q": "Kann ich mehrere Überarbeitungen anfordern?",
+            "a": "Ja. Wenn Sie eine Neubestätigung benötigen, rufen wir erneut an."
+          },
+          {
+            "q": "Welche Arten von Anrufen können Sie für mich tätigen?",
+            "a": "Krankenhäuser, öffentliche Einrichtungen und Alltagsdienstanfragen."
+          },
+          {
+            "q": "Was ist, wenn der Anruf nicht durchkommt?",
+            "a": "Wir versuchen es erneut oder bieten alternative Lösungen an."
+          }
+        ]
+      },
+      {
+        "name": "Gesundheitsinformationszusammenfassung (nicht-medizinisch)",
+        "questions": [
+          {
+            "q": "Kann ich meine Symptome beschreiben?",
+            "a": "Ja. Wir organisieren die Informationen für Sie."
+          },
+          {
+            "q": "Sagen Sie mir, ob ich ins Krankenhaus gehen sollte?",
+            "a": "Es ist keine Diagnose, aber wir können beraten, ob ein Besuch empfohlen wird."
+          },
+          {
+            "q": "Ersetzen Sie Arztkonsultationen?",
+            "a": "Nein. Wir führen keine medizinischen Handlungen durch."
+          },
+          {
+            "q": "Können Sie mir helfen, Fragen vor meinem Krankenhausbesuch vorzubereiten?",
+            "a": "Ja. Wir organisieren notwendige Fragen für Sie."
+          },
+          {
+            "q": "Kann ich Hilfe bekommen, wenn ich ängstlich bin?",
+            "a": "Ja. Wir organisieren die Situation und geben Anleitung."
+          },
+          {
+            "q": "Werden Gesundheitsakten aufbewahrt?",
+            "a": "Nur im notwendigen Umfang."
+          }
+        ]
+      },
+      {
+        "name": "Familienkommunikationsbrücke",
+        "questions": [
+          {
+            "q": "Wird mein Status mit der Familie geteilt?",
+            "a": "Nur kurz und nur bei Bedarf."
+          },
+          {
+            "q": "Wird meine Familie immer benachrichtigt?",
+            "a": "Nein. Nur in ungewöhnlichen Situationen."
+          },
+          {
+            "q": "Werde ich mich überwacht fühlen?",
+            "a": "Nein. Wir priorisieren Ihre Autonomie."
+          },
+          {
+            "q": "Welche Informationen werden geteilt?",
+            "a": "Nur minimale Informationen wie Zustandszusammenfassungen."
+          },
+          {
+            "q": "Kann ich die Freigabe deaktivieren, wenn ich es nicht möchte?",
+            "a": "Ja. Sie können die Einstellungen jederzeit anpassen."
+          }
+        ]
+      },
+      {
+        "name": "Betrugs- & Risikoerkennung",
+        "questions": [
+          {
+            "q": "Können Sie Voice-Phishing blockieren?",
+            "a": "Ja. Wir erkennen verdächtige Anrufe in Echtzeit."
+          },
+          {
+            "q": "Wie werden Risiken kommuniziert?",
+            "a": "Sie erhalten während des Anrufs sofort eine Sprachwarnung."
+          },
+          {
+            "q": "Erklären Sie, warum es riskant ist?",
+            "a": "Ja. Wir geben klare und einfache Erklärungen."
+          },
+          {
+            "q": "Muss ich selbst auflegen?",
+            "a": "Ja. Die Entscheidung zum Auflegen liegt bei Ihnen."
+          },
+          {
+            "q": "Wird meine Familie benachrichtigt?",
+            "a": "Bei Bedarf können wir Ihren Vormund benachrichtigen."
+          }
+        ]
+      },
+      {
+        "name": "Lebensmanager & Sonstiges",
+        "questions": [
+          {
+            "q": "Können Sie Wetter- oder Terminninformationen bereitstellen?",
+            "a": "Ja. Wir geben sofortige Anleitung per Telefon."
+          },
+          {
+            "q": "Können Sie mich daran erinnern, Medikamente einzunehmen?",
+            "a": "Ja. Wir helfen bei alltäglichen Erinnerungen."
+          },
+          {
+            "q": "Was passiert in dringenden Situationen?",
+            "a": "Wir verbinden Sie sofort mit Hilfe."
+          },
+          {
+            "q": "Wie nutze ich den Service erneut?",
+            "a": "Rufen Sie einfach jederzeit an."
+          },
+          {
+            "q": "Was ist der größte Vorteil dieses Services?",
+            "a": "Sie müssen Probleme nicht alleine lösen."
           }
         ]
       }
     ]
   },
   "footer": {
-    "tagline": "Allein, aber nicht einsam, zusammen mit SOLOCALL",
+    "tagline": "Allein, aber nicht einsam - mit SOLOCALL",
     "contact": "Kontakt: support@solocall.com",
     "copyright": "© 2026 SOLOCALL. Alle Rechte vorbehalten."
   }

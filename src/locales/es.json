@@ -2,8 +2,8 @@
   "lang": "es",
   "langName": "Español",
   "meta": {
-    "title": "SOLOCALL | Plataforma de Apoyo Vital con IA por Voz",
-    "description": "Una plataforma de apoyo vital con IA basada en teléfono para adultos mayores que viven solos. Resuelva citas médicas, procedimientos administrativos e información de salud con solo una llamada."
+    "title": "SOLOCALL | Plataforma de Soporte de Vida con IA basada en Voz",
+    "description": "Plataforma de soporte de vida con IA basada en teléfono para personas de mediana edad y mayores que viven solas. Resuelve citas médicas, procedimientos administrativos e información de salud con una sola llamada."
   },
   "nav": {
     "home": "Inicio",
@@ -14,92 +14,140 @@
   },
   "hero": {
     "title": "Solo pero no solitario",
-    "subtitle": "Tu compañero de vida con IA<br/>a solo una llamada",
-    "description": "Una plataforma de voz que maneja citas médicas, procedimientos administrativos<br/>e información de salud por ti—sin necesidad de instalar aplicaciones.",
+    "subtitle": "Tu compañero de vida con IA<br/>Resolviendo desafíos diarios con una llamada",
+    "description": "Una plataforma basada en voz que gestiona citas médicas, procedimientos administrativos<br/>e información de salud por teléfono - sin necesidad de instalar aplicaciones.",
     "cta": "Comenzar",
     "callNow": "Llamar ahora"
   },
   "features": {
-    "title": "Servicios de SOLOCALL",
-    "subtitle": "Todo resuelto con solo una llamada telefónica",
+    "title": "Servicios SOLOCALL",
+    "subtitle": "Todo resuelto con una llamada telefónica",
     "items": [
       {
         "icon": "fa-phone-volume",
-        "title": "Servicio de llamadas hospitalarias y gubernamentales",
-        "description": "La IA maneja citas médicas y consultas de agencias públicas por ti. Obtén resultados sin esperar."
+        "title": "Representación en Hospital y Oficinas Públicas",
+        "description": "La IA maneja citas médicas y consultas a oficinas públicas por ti. Obtén resultados sin esperar."
       },
       {
         "icon": "fa-heartbeat",
-        "title": "Organización de información de salud",
-        "description": "Cuéntanos tus síntomas y los organizaremos. Preparamos preguntas que necesitas antes de visitas médicas."
+        "title": "Resumen de Información de Salud",
+        "description": "Cuéntanos tus síntomas y los organizaremos. También prepararemos preguntas para tu visita al hospital."
       },
       {
         "icon": "fa-users",
-        "title": "Puente de comunicación familiar",
+        "title": "Puente de Comunicación Familiar",
         "description": "Comparte tu estado con la familia solo cuando sea necesario. Conexión para tranquilidad, no vigilancia."
       },
       {
         "icon": "fa-shield-alt",
-        "title": "Protección contra llamadas fraudulentas",
+        "title": "Detección de Llamadas Fraudulentas",
         "description": "Detección en tiempo real de llamadas sospechosas de phishing con alertas inmediatas."
       },
       {
         "icon": "fa-clipboard-list",
-        "title": "Gestor de vida",
-        "description": "Gestiona la vida diaria por teléfono: clima, agenda, recordatorios de medicamentos y más."
+        "title": "Gerente de Vida",
+        "description": "Gestiona la vida diaria por teléfono: clima, horarios, recordatorios de medicamentos y más."
       },
       {
         "icon": "fa-hand-holding-heart",
-        "title": "Verificación de bienestar 24/7",
-        "description": "Llamamos en horarios programados para verificar tu bienestar. Habla despacio y cómodamente."
+        "title": "Chequeo de Bienestar 24/7",
+        "description": "Llamadas de verificación programadas. Habla despacio y cómodamente a tu propio ritmo."
       }
     ]
   },
   "howItWorks": {
-    "title": "Cómo funciona",
+    "title": "Cómo usar",
     "steps": [
       {
         "number": "1",
-        "title": "Hacer una llamada",
-        "description": "Llama o recibe una llamada del número registrado"
+        "title": "Llamar",
+        "description": "Llama o recibe una llamada desde el número registrado"
       },
       {
         "number": "2",
-        "title": "Solo habla",
+        "title": "Hablar",
         "description": "Dinos lo que necesitas, despacio y cómodamente"
       },
       {
         "number": "3",
-        "title": "Lo manejamos",
-        "description": "La IA lo procesa por ti y proporciona resultados"
+        "title": "Resuelto",
+        "description": "La IA lo maneja y te proporciona los resultados"
       }
     ]
   },
   "faq": {
     "title": "Preguntas frecuentes",
-    "subtitle": "Encuentra respuestas a preguntas comunes",
+    "subtitle": "Encuentra respuestas a tus preguntas",
     "categories": [
       {
-        "name": "Conceptos básicos del servicio",
+        "name": "Comprensión básica del servicio",
         "questions": [
-          {
-            "q": "¿Qué hace este servicio?",
-            "a": "Con una llamada telefónica, manejamos u organizamos problemas de hospital, administrativos, de salud y de vida diaria por ti."
-          },
-          {
-            "q": "¿Necesito instalar una aplicación?",
-            "a": "No. Todo lo que necesitas es un teléfono."
-          },
-          {
-            "q": "¿Para quién es este servicio?",
-            "a": "Este es un servicio de apoyo vital basado en teléfono para personas de mediana edad y mayores que viven solas."
-          }
+          {"q": "¿En qué ayuda este servicio?", "a": "Con una llamada, manejamos u organizamos problemas hospitalarios, administrativos, de salud y de la vida diaria para ti."},
+          {"q": "¿Necesito instalar una aplicación?", "a": "No. Solo necesitas un teléfono para usar el servicio."},
+          {"q": "¿Para quién es este servicio?", "a": "Este es un servicio de soporte de vida basado en teléfono para personas de mediana edad y mayores que viven solas."},
+          {"q": "¿Se requieren operaciones complicadas?", "a": "No. Solo necesitas hablar."},
+          {"q": "¿Estoy hablando con un agente humano?", "a": "En lugar de una persona, la IA te ayuda por teléfono."},
+          {"q": "¿Puedo hablar despacio?", "a": "Sí. Puedes hablar despacio y cómodamente."},
+          {"q": "¿Recuerda conversaciones anteriores?", "a": "Sí. Hace referencia a conversaciones anteriores para ayudarte mejor."}
+        ]
+      },
+      {
+        "name": "Representación en Hospital y Oficinas Públicas",
+        "questions": [
+          {"q": "¿Pueden hacer citas médicas por mí?", "a": "Sí. Llamamos directamente al hospital para manejar citas y consultas."},
+          {"q": "¿Pueden manejar oficinas de distrito o centros comunitarios?", "a": "Sí. Verificamos procedimientos, documentos y departamentos relevantes para ti."},
+          {"q": "¿Pueden esperar en espera por mí?", "a": "Sí. Manejamos sistemas de espera e IVR - tú solo obtienes los resultados."},
+          {"q": "¿Cómo se entregan los resultados?", "a": "Te llamamos de vuelta para explicar o resumir los resultados."},
+          {"q": "¿Puedo solicitar múltiples revisiones?", "a": "Sí. Si necesitas reconfirmar, llamaremos de nuevo."},
+          {"q": "¿Qué tipos de llamadas pueden hacer por mí?", "a": "Hospitales, instituciones públicas y consultas de servicios diarios."},
+          {"q": "¿Qué pasa si la llamada no se conecta?", "a": "Lo intentaremos de nuevo o proporcionaremos soluciones alternativas."}
+        ]
+      },
+      {
+        "name": "Resumen de Información de Salud (no médico)",
+        "questions": [
+          {"q": "¿Puedo describir mis síntomas?", "a": "Sí. Organizaremos la información para ti."},
+          {"q": "¿Me dirán si debo ir al hospital?", "a": "No es un diagnóstico, pero podemos aconsejar si se recomienda una visita."},
+          {"q": "¿Reemplazan las consultas médicas?", "a": "No. No realizamos actos médicos."},
+          {"q": "¿Pueden ayudarme a preparar preguntas antes de mi visita al hospital?", "a": "Sí. Organizaremos las preguntas necesarias para ti."},
+          {"q": "¿Puedo obtener ayuda cuando estoy ansioso?", "a": "Sí. Organizaremos la situación y proporcionaremos orientación."},
+          {"q": "¿Se guardan registros de salud?", "a": "Solo en la medida necesaria."}
+        ]
+      },
+      {
+        "name": "Puente de Comunicación Familiar",
+        "questions": [
+          {"q": "¿Se compartirá mi estado con la familia?", "a": "Solo brevemente y solo cuando sea necesario."},
+          {"q": "¿Siempre se notifica a mi familia?", "a": "No. Solo en situaciones inusuales."},
+          {"q": "¿Me sentiré vigilado?", "a": "No. Priorizamos tu autonomía."},
+          {"q": "¿Qué información se comparte?", "a": "Solo información mínima como resúmenes de condición."},
+          {"q": "¿Puedo desactivar el compartir si no lo quiero?", "a": "Sí. Puedes ajustar la configuración en cualquier momento."}
+        ]
+      },
+      {
+        "name": "Detección de Llamadas Fraudulentas y de Riesgo",
+        "questions": [
+          {"q": "¿Pueden bloquear el phishing de voz?", "a": "Sí. Detectamos llamadas sospechosas en tiempo real."},
+          {"q": "¿Cómo se comunican los riesgos?", "a": "Recibirás una alerta de voz inmediata durante la llamada."},
+          {"q": "¿Explicarán por qué es riesgoso?", "a": "Sí. Proporcionamos explicaciones claras y simples."},
+          {"q": "¿Tengo que colgar yo mismo?", "a": "Sí. La decisión de colgar es tuya."},
+          {"q": "¿Se notificará a mi familia?", "a": "Si es necesario, podemos notificar a tu tutor."}
+        ]
+      },
+      {
+        "name": "Gerente de Vida y Otros",
+        "questions": [
+          {"q": "¿Pueden proporcionar información meteorológica o de horarios?", "a": "Sí. Proporcionamos orientación inmediata por teléfono."},
+          {"q": "¿Pueden recordarme tomar medicamentos?", "a": "Sí. Ayudamos con recordatorios de la vida diaria."},
+          {"q": "¿Qué sucede en situaciones urgentes?", "a": "Te conectamos inmediatamente con ayuda."},
+          {"q": "¿Cómo uso el servicio nuevamente?", "a": "Simplemente llama en cualquier momento."},
+          {"q": "¿Cuál es la mayor ventaja de este servicio?", "a": "No tienes que resolver problemas solo."}
         ]
       }
     ]
   },
   "footer": {
-    "tagline": "Solo pero no solitario, junto con SOLOCALL",
+    "tagline": "Solo pero no solitario - con SOLOCALL",
     "contact": "Contacto: support@solocall.com",
     "copyright": "© 2026 SOLOCALL. Todos los derechos reservados."
   }

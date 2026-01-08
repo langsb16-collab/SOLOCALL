@@ -1,106 +1,11 @@
 {
   "lang": "pt",
   "langName": "Português",
-  "meta": {
-    "title": "SOLOCALL | Plataforma de Suporte à Vida por IA de Voz",
-    "description": "Uma plataforma de suporte à vida por IA baseada em telefone para adultos de meia-idade e idosos que vivem sozinhos. Resolva consultas médicas, procedimentos administrativos e informações de saúde com apenas uma ligação."
-  },
-  "nav": {
-    "home": "Início",
-    "about": "Sobre",
-    "features": "Recursos",
-    "faq": "Perguntas frequentes",
-    "contact": "Contato"
-  },
-  "hero": {
-    "title": "Sozinho mas não solitário",
-    "subtitle": "Seu parceiro de vida com IA<br/>a apenas uma ligação",
-    "description": "Uma plataforma de voz que gerencia consultas médicas, procedimentos administrativos<br/>e informações de saúde para você—sem necessidade de instalar aplicativo.",
-    "cta": "Começar",
-    "callNow": "Ligue agora"
-  },
-  "features": {
-    "title": "Serviços SOLOCALL",
-    "subtitle": "Tudo resolvido com apenas uma ligação",
-    "items": [
-      {
-        "icon": "fa-phone-volume",
-        "title": "Serviço de ligações hospitalares e governamentais",
-        "description": "A IA gerencia consultas médicas e consultas de agências públicas para você. Obtenha resultados sem esperar."
-      },
-      {
-        "icon": "fa-heartbeat",
-        "title": "Organização de informações de saúde",
-        "description": "Conte-nos seus sintomas e nós os organizaremos. Preparamos perguntas que você precisa antes de visitas médicas."
-      },
-      {
-        "icon": "fa-users",
-        "title": "Ponte de comunicação familiar",
-        "description": "Compartilhe seu status com a família apenas quando necessário. Conexão para tranquilidade, não vigilância."
-      },
-      {
-        "icon": "fa-shield-alt",
-        "title": "Proteção contra chamadas fraudulentas",
-        "description": "Detecção em tempo real de chamadas suspeitas de phishing com alertas imediatos."
-      },
-      {
-        "icon": "fa-clipboard-list",
-        "title": "Gerenciador de vida",
-        "description": "Gerencie a vida diária por telefone: clima, agenda, lembretes de medicamentos e mais."
-      },
-      {
-        "icon": "fa-hand-holding-heart",
-        "title": "Verificação de bem-estar 24/7",
-        "description": "Ligamos em horários programados para verificar seu bem-estar. Fale devagar e confortavelmente."
-      }
-    ]
-  },
-  "howItWorks": {
-    "title": "Como funciona",
-    "steps": [
-      {
-        "number": "1",
-        "title": "Fazer uma ligação",
-        "description": "Ligue ou receba uma ligação do número registrado"
-      },
-      {
-        "number": "2",
-        "title": "Apenas fale",
-        "description": "Diga-nos o que você precisa, devagar e confortavelmente"
-      },
-      {
-        "number": "3",
-        "title": "Nós cuidamos",
-        "description": "A IA processa para você e fornece resultados"
-      }
-    ]
-  },
-  "faq": {
-    "title": "Perguntas frequentes",
-    "subtitle": "Encontre respostas para perguntas comuns",
-    "categories": [
-      {
-        "name": "Conceitos básicos do serviço",
-        "questions": [
-          {
-            "q": "O que este serviço faz?",
-            "a": "Com uma ligação telefônica, gerenciamos ou organizamos problemas de hospital, administrativos, de saúde e de vida diária para você."
-          },
-          {
-            "q": "Preciso instalar um aplicativo?",
-            "a": "Não. Tudo que você precisa é um telefone."
-          },
-          {
-            "q": "Para quem é este serviço?",
-            "a": "Este é um serviço de suporte à vida baseado em telefone para pessoas de meia-idade e idosos que vivem sozinhos."
-          }
-        ]
-      }
-    ]
-  },
-  "footer": {
-    "tagline": "Sozinho mas não solitário, junto com SOLOCALL",
-    "contact": "Contato: support@solocall.com",
-    "copyright": "© 2026 SOLOCALL. Todos os direitos reservados."
-  }
+  "meta": {"title": "SOLOCALL | Plataforma de Suporte de Vida com IA baseada em Voz", "description": "Plataforma de suporte de vida com IA baseada em telefone para pessoas de meia-idade e idosos que vivem sozinhos. Resolva consultas médicas, procedimentos administrativos e informações de saúde com uma única chamada."},
+  "nav": {"home": "Início", "about": "Sobre", "features": "Recursos", "faq": "FAQ", "contact": "Contato"},
+  "hero": {"title": "Sozinho, mas não solitário", "subtitle": "Seu parceiro de vida com IA<br/>Resolvendo desafios diários com uma chamada", "description": "Uma plataforma baseada em voz que gerencia consultas médicas, procedimentos administrativos<br/>e informações de saúde por telefone - sem necessidade de instalação de aplicativo.", "cta": "Começar", "callNow": "Ligar agora"},
+  "features": {"title": "Serviços SOLOCALL", "subtitle": "Tudo resolvido com uma chamada telefônica", "items": [{"icon": "fa-phone-volume", "title": "Representação em Hospital e Escritórios Públicos", "description": "A IA cuida de consultas médicas e consultas a escritórios públicos para você. Obtenha resultados sem esperar."}, {"icon": "fa-heartbeat", "title": "Resumo de Informações de Saúde", "description": "Conte-nos seus sintomas e vamos organizá-los. Também prepararemos perguntas para sua visita ao hospital."}, {"icon": "fa-users", "title": "Ponte de Comunicação Familiar", "description": "Compartilhe seu status com a família apenas quando necessário. Conexão para tranquilidade, não vigilância."}, {"icon": "fa-shield-alt", "title": "Detecção de Chamadas Fraudulentas", "description": "Detecção em tempo real de chamadas suspeitas de phishing com alertas imediatos."}, {"icon": "fa-clipboard-list", "title": "Gerente de Vida", "description": "Gerencie a vida diária por telefone: clima, agendas, lembretes de medicamentos e mais."}, {"icon": "fa-hand-holding-heart", "title": "Verificação de Bem-Estar 24/7", "description": "Chamadas de verificação programadas. Fale devagar e confortavelmente no seu próprio ritmo."}]},
+  "howItWorks": {"title": "Como usar", "steps": [{"number": "1", "title": "Ligar", "description": "Ligue ou receba uma chamada do número registrado"}, {"number": "2", "title": "Falar", "description": "Diga-nos o que você precisa, devagar e confortavelmente"}, {"number": "3", "title": "Resolvido", "description": "A IA cuida e fornece os resultados"}]},
+  "faq": {"title": "Perguntas frequentes", "subtitle": "Encontre respostas para suas perguntas", "categories": [{"name": "Compreensão básica do serviço", "questions": [{"q": "O que este serviço ajuda?", "a": "Com uma chamada, cuidamos ou organizamos problemas hospitalares, administrativos, de saúde e da vida diária para você."}, {"q": "Preciso instalar um aplicativo?", "a": "Não. Você só precisa de um telefone para usar o serviço."}, {"q": "Para quem é este serviço?", "a": "Este é um serviço de suporte de vida baseado em telefone para pessoas de meia-idade e idosos que vivem sozinhos."}, {"q": "Operações complicadas são necessárias?", "a": "Não. Você só precisa falar."}, {"q": "Estou falando com um agente humano?", "a": "Em vez de uma pessoa, a IA ajuda você por telefone."}, {"q": "Posso falar devagar?", "a": "Sim. Você pode falar devagar e confortavelmente."}, {"q": "Ele lembra de conversas anteriores?", "a": "Sim. Ele faz referência a conversas anteriores para ajudá-lo melhor."}]}, {"name": "Representação em Hospital e Escritórios Públicos", "questions": [{"q": "Vocês podem marcar consultas médicas para mim?", "a": "Sim. Ligamos diretamente para o hospital para cuidar de consultas e solicitações."}, {"q": "Vocês podem lidar com escritórios distritais ou centros comunitários?", "a": "Sim. Verificamos procedimentos, documentos e departamentos relevantes para você."}, {"q": "Vocês podem esperar em espera por mim?", "a": "Sim. Lidamos com sistemas de espera e IVR - você apenas recebe os resultados."}, {"q": "Como os resultados são entregues?", "a": "Ligamos de volta para explicar ou resumir os resultados."}, {"q": "Posso solicitar várias revisões?", "a": "Sim. Se você precisar reconfirmar, ligaremos novamente."}, {"q": "Que tipos de chamadas vocês podem fazer por mim?", "a": "Hospitais, instituições públicas e solicitações de serviços diários."}, {"q": "E se a chamada não se conectar?", "a": "Tentaremos novamente ou forneceremos soluções alternativas."}]}, {"name": "Resumo de Informações de Saúde (não médico)", "questions": [{"q": "Posso descrever meus sintomas?", "a": "Sim. Organizaremos as informações para você."}, {"q": "Vocês me dirão se eu devo ir ao hospital?", "a": "Não é um diagnóstico, mas podemos aconselhar se uma visita é recomendada."}, {"q": "Vocês substituem consultas médicas?", "a": "Não. Não realizamos atos médicos."}, {"q": "Vocês podem me ajudar a preparar perguntas antes da minha visita ao hospital?", "a": "Sim. Organizaremos perguntas necessárias para você."}, {"q": "Posso obter ajuda quando estou ansioso?", "a": "Sim. Organizaremos a situação e forneceremos orientação."}, {"q": "Registros de saúde são mantidos?", "a": "Apenas na extensão necessária."}]}, {"name": "Ponte de Comunicação Familiar", "questions": [{"q": "Meu status será compartilhado com a família?", "a": "Apenas brevemente e apenas quando necessário."}, {"q": "Minha família é sempre notificada?", "a": "Não. Apenas em situações incomuns."}, {"q": "Vou me sentir vigiado?", "a": "Não. Priorizamos sua autonomia."}, {"q": "Quais informações são compartilhadas?", "a": "Apenas informações mínimas como resumos de condição."}, {"q": "Posso desativar o compartilhamento se não quiser?", "a": "Sim. Você pode ajustar as configurações a qualquer momento."}]}, {"name": "Detecção de Chamadas Fraudulentas e de Risco", "questions": [{"q": "Vocês podem bloquear phishing de voz?", "a": "Sim. Detectamos chamadas suspeitas em tempo real."}, {"q": "Como os riscos são comunicados?", "a": "Você receberá um alerta de voz imediato durante a chamada."}, {"q": "Vocês explicarão por que é arriscado?", "a": "Sim. Fornecemos explicações claras e simples."}, {"q": "Tenho que desligar eu mesmo?", "a": "Sim. A decisão de desligar é sua."}, {"q": "Minha família será notificada?", "a": "Se necessário, podemos notificar seu responsável."}]}, {"name": "Gerente de Vida e Outros", "questions": [{"q": "Vocês podem fornecer informações meteorológicas ou de agendas?", "a": "Sim. Fornecemos orientação imediata por telefone."}, {"q": "Vocês podem me lembrar de tomar medicamentos?", "a": "Sim. Ajudamos com lembretes da vida diária."}, {"q": "O que acontece em situações urgentes?", "a": "Conectamos você imediatamente à ajuda."}, {"q": "Como usar o serviço novamente?", "a": "Apenas ligue a qualquer momento."}, {"q": "Qual é a maior vantagem deste serviço?", "a": "Você não precisa resolver problemas sozinho."}]}]},
+  "footer": {"tagline": "Sozinho, mas não solitário - com SOLOCALL", "contact": "Contato: support@solocall.com", "copyright": "© 2026 SOLOCALL. Todos os direitos reservados."}
 }
